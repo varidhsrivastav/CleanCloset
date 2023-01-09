@@ -1,6 +1,6 @@
 import React from "react";
 import "./Intro.css";
-import india from "./Image/imdiamap.png";
+import india from "./Image/indiamap.png";
 
 const Intro = () => {
   return (
@@ -20,15 +20,22 @@ const Intro = () => {
               </button>
             </div>
             <div className="DiscoverButton">
-                <a href="">
-                    discover now
-                </a>
+              <a href="">discover now</a>
             </div>
           </div>
         </div>
         <div className="IntroImageSide">
           <div className="IntroMapImage">
-            <img src={india} alt="" />
+            {/* <img src={india} alt="" /> */}
+            <lottie-player
+    src="https://assets3.lottiefiles.com/packages/lf20_3dweyago.json"
+              background="transparent"
+              speed="1"
+              // style="width: 300px; height: 300px;"
+              loop
+              // controls
+              autoplay
+            ></lottie-player>
           </div>
         </div>
       </div>
