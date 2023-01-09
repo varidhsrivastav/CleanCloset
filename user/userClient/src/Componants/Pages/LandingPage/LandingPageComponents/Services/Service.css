@@ -1,0 +1,32 @@
+.SectionMainContainer {
+  width: 100%;
+}
+.SectionMainContainer .SectionContainer {
+  margin: 1vw 10vw;
+}
+.SectionMainContainer .SectionContainer p {
+  margin: 0 0 3vw 0;
+}
+.SectionMainContainer .SectionContainer .ServiceContent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 3;
+  -moz-column-gap: 3em;
+       column-gap: 3em;
+}
+.SectionMainContainer .SectionContainer .ServiceContent .SectionCards {
+  grid-column: 1/3;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 2;
+  -moz-column-gap: 3em;
+       column-gap: 3em;
+}
+.SectionMainContainer .SectionContainer .ServiceContent .SectionCards .ServiceCardBoday {
+  padding: 1em 1em 0 1em;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.SectionMainContainer .SectionContainer .ServiceContent .ServiceSectionImage {
+  width: 100%;
+}/*# sourceMappingURL=Service.css.map */

@@ -1,0 +1,35 @@
+.SectionMainContainer {
+    width: 100%;
+
+    .SectionContainer {
+        margin: 1vw 10vw;
+        p{
+            margin:  0 0 3vw 0;
+        }
+        .ServiceContent {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: 3;
+            column-gap: 3em;
+            // display: flex;
+            .SectionCards {
+                grid-column: 1/3;
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: 2;
+                
+                column-gap: 3em;
+                .ServiceCardBoday {
+                // flex: 1;
+                    padding: 1em 1em 0 1em ;
+                    flex-wrap: wrap;
+                    width: 100%;
+                }
+            }
+            .ServiceSectionImage {
+                // flex: 3;
+                width: 100%;
+            }
+        }
+    }
+}
