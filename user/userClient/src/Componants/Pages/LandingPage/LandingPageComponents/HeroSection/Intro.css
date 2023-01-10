@@ -1,6 +1,7 @@
 .introMainComponets .IntroComponents {
-  display: flex;
   height: 80vh;
+  margin: 0 10vw;
+  display: flex;
   align-items: center;
   position: relative;
 }
@@ -16,7 +17,7 @@
   font-family: "Fredoka One", cursive;
   width: 70%;
   font-size: 3vw;
-  font-weight: 800;
+  font-weight: 400;
 }
 .introMainComponets .IntroComponents .IntroContentSide p {
   font-size: 1vw;
@@ -26,6 +27,9 @@
 .introMainComponets .IntroComponents .IntroContentSide .IntroButtons {
   display: flex;
   gap: 3em;
+}
+.introMainComponets .IntroComponents .IntroContentSide .IntroButtons .DonateButtons {
+  display: flex;
 }
 .introMainComponets .IntroComponents .IntroContentSide .IntroButtons .DiscoverButton {
   align-self: center;
@@ -38,7 +42,7 @@
   display: flex;
 }
 .introMainComponets .IntroComponents .IntroImageSide .IntroMapImage {
-  width: 40vw;
+  width: 30vw;
   margin-right: 3em;
 }
 

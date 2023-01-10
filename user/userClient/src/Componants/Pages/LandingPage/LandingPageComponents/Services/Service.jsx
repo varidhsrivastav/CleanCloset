@@ -5,11 +5,6 @@ const Service = () => {
   return (
     <div className="SectionMainContainer">
       <div className="SectionContainer">
-        <h1>The Problem we want to solve</h1>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error,
-          earum?
-        </p>
         <div className="ServiceContent">
           <div className="SectionCards">
             <div className="ServiceCardBoday">
@@ -17,13 +12,18 @@ const Service = () => {
                 <lord-icon
                   src="https://cdn.lordicon.com/tqywkdcz.json"
                   trigger="hover"
-                  // style="width:250px;height:250px"
-                ></lord-icon>
+                  autoplay
+                  loop
+                  background="transparent"
+              speed="1"
+                >
+
+                </lord-icon>
               </div>
+              <h3>Lorem</h3>
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Quaerat dolor cum, id ea officia illo consectetur perferendis
-                sequi incidunt mollitia.
+                Quaerat dolor cum,
               </p>
             </div>
             <div className="ServiceCardBoday">
@@ -31,13 +31,12 @@ const Service = () => {
                 <lord-icon
                   src="https://cdn.lordicon.com/tqywkdcz.json"
                   trigger="hover"
-                  // style="width:250px;height:250px"
                 ></lord-icon>
               </div>
+              <h3>Lorem</h3>
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Quaerat dolor cum, id ea officia illo consectetur perferendis
-                sequi incidunt mollitia.
+                Quaerat dolor cum,
               </p>
             </div>
             <div className="ServiceCardBoday">
@@ -45,13 +44,12 @@ const Service = () => {
                 <lord-icon
                   src="https://cdn.lordicon.com/tqywkdcz.json"
                   trigger="hover"
-                  // style="width:250px;height:250px"
                 ></lord-icon>
               </div>
+              <h3>Lorem</h3>
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Quaerat dolor cum, id ea officia illo consectetur perferendis
-                sequi incidunt mollitia.
+                Quaerat dolor cum,
               </p>
             </div>
             <div className="ServiceCardBoday">
@@ -59,17 +57,25 @@ const Service = () => {
                 <lord-icon
                   src="https://cdn.lordicon.com/tqywkdcz.json"
                   trigger="hover"
-                  // style="width:250px;height:250px"
                 ></lord-icon>
               </div>
+              <h3>Lorem</h3>
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Quaerat dolor cum, id ea officia illo consectetur perferendis
-                sequi incidunt mollitia.
+                Quaerat dolor cum,
               </p>
             </div>
           </div>
-          <div className="ServiceSectionImage">ksdjdsk</div>
+          <div className="ServiceSectionImage">
+            <h1>Several donation program that can make it easier for you</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam,
+              ipsum?
+            </p>
+            <div className="ServiceButton">
+              <button>Donate Now</button>
+            </div>
+          </div>
         </div>
       </div>
     </div>

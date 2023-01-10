@@ -1,8 +1,9 @@
 .SectionMainContainer {
   width: 100%;
+  margin-top: 5em;
 }
 .SectionMainContainer .SectionContainer {
-  margin: 1vw 10vw;
+  margin: 0vw 20vw;
 }
 .SectionMainContainer .SectionContainer p {
   margin: 0 0 3vw 0;
@@ -19,14 +20,30 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 2;
-  -moz-column-gap: 3em;
-       column-gap: 3em;
+  -moz-column-gap: 2em;
+       column-gap: 2em;
+  row-gap: 2em;
 }
 .SectionMainContainer .SectionContainer .ServiceContent .SectionCards .ServiceCardBoday {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
   padding: 1em 1em 0 1em;
+  border-radius: 10px;
   flex-wrap: wrap;
   width: 100%;
 }
+.SectionMainContainer .SectionContainer .ServiceContent .SectionCards .ServiceCardBoday .serviceIcon lord-icon {
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 2px;
+  height: 50px;
+  width: 50px;
+  margin: 10px 0;
+}
 .SectionMainContainer .SectionContainer .ServiceContent .ServiceSectionImage {
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.SectionMainContainer .SectionContainer .ServiceContent .ServiceSectionImage h1 {
+  font-weight: 700;
 }/*# sourceMappingURL=Service.css.map */
