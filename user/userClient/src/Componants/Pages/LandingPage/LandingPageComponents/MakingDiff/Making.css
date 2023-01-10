@@ -1,1 +1,22 @@
-/*# sourceMappingURL=Making.css.map */
+.MakingDiffMainContainer .MakingDiffConatiner {
+  margin: 5vw 20vw;
+  display: flex;
+}
+.MakingDiffMainContainer .MakingDiffConatiner .MakingDiffPhoto {
+  width: 100%;
+}
+.MakingDiffMainContainer .MakingDiffConatiner .MakingDiffPhoto img {
+  width: 100%;
+}
+.MakingDiffMainContainer .MakingDiffConatiner .MakingDiffContent {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.MakingDiffMainContainer .MakingDiffConatiner .MakingDiffContent .MangingDiffInsideContent .MakingDiffInsideContentBody {
+  display: flex;
+}
+.MakingDiffMainContainer .MakingDiffConatiner .MakingDiffContent .MangingDiffInsideContent .MakingDiffInsideContentBody .MakingDiffICBodyIcon {
+  padding: 10px;
+}/*# sourceMappingURL=Making.css.map */

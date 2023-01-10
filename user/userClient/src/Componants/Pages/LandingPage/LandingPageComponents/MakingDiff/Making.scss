@@ -1,0 +1,29 @@
+.MakingDiffMainContainer {
+    .MakingDiffConatiner {
+        margin: 5vw 20vw;
+        display: flex;
+        .MakingDiffPhoto{
+            width: 100%;
+            img{
+                width: 100%;
+            }
+        }
+        .MakingDiffContent {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            .MangingDiffInsideContent {
+                .MakingDiffInsideContentBody {
+                    display: flex;
+
+                    .MakingDiffICBodyIcon {
+                        padding: 10px;
+                    }
+
+                    .MakingDiffICBodyContent {}
+                }
+            }
+        }
+    }
+}
