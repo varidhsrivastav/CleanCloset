@@ -1,1 +1,33 @@
-/*# sourceMappingURL=HowWeWork.css.map */
+.HowWeMainContainer .howweworkcontainer {
+  margin: 10vw 0;
+  text-align: center;
+}
+.HowWeMainContainer .howweworkcontainer .HowWeWorkCardContainer {
+  display: flex;
+  gap: 2rem;
+  margin: 5vw 0;
+}
+.HowWeMainContainer .howweworkcontainer .HowWeWorkCardContainer .HowWeWOrkCardBody {
+  border: 1px solid black;
+  border-radius: 10px;
+  display: grid;
+  place-content: center;
+  place-items: center;
+  min-height: 200px;
+}
+.HowWeMainContainer .howweworkcontainer .HowWeWorkCardContainer .HowWeWOrkCardBody .HowWeWorkCardicon {
+  border: 1px solid black;
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  margin-top: -30%;
+  background-color: white;
+  display: grid;
+  place-content: center;
+}
+.HowWeMainContainer .howweworkcontainer .HowWeWorkCardContainer .HowWeWOrkCardBody .HwwCardHeading {
+  margin: 5px 0;
+}
+.HowWeMainContainer .howweworkcontainer .HowWeWorkCardContainer .HowWeWOrkCardBody .HwwCardPara {
+  width: 70%;
+}/*# sourceMappingURL=HowWeWork.css.map */

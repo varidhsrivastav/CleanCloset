@@ -1,0 +1,41 @@
+.HowWeMainContainer {
+    .howweworkcontainer {
+        margin: 10vw 0;
+        text-align: center;
+        // display: flex;
+        // flex-direction: row;
+        .HowWeWorkCardContainer {
+            display: flex;
+            gap: 2rem;
+            margin: 5vw 0;
+            .HowWeWOrkCardBody {
+                border: 1px solid black;
+                border-radius: 10px;
+                display: grid;
+                place-content: center;
+                place-items: center;
+                min-height: 200px;
+
+                .HowWeWorkCardicon {
+                    border: 1px solid black;
+                    border-radius: 50%;
+                    height: 70px;
+                    width: 70px;
+                    margin-top: -30%;
+                    background-color: white;    
+                    display: grid;
+                    place-content: center;
+
+
+                }
+                .HwwCardHeading{
+                    // color: blue;
+                    margin: 5px 0 ;
+                }
+                .HwwCardPara{
+                    width: 70%;
+                }
+            }
+        }
+    }
+}
