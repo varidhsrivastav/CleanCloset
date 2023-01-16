@@ -1,1 +1,42 @@
-/*# sourceMappingURL=Footer.css.map */
+.FooterMainContainer .FooterComponants .FooterAddNgoSection {
+  display: flex;
+  flex-direction: row;
+  padding: 3vw 0;
+}
+.FooterMainContainer .FooterComponants .FooterAddNgoSection .AddNgoContent {
+  flex: 2.5;
+  padding: 0 10vw;
+}
+.FooterMainContainer .FooterComponants .FooterAddNgoSection .AddNgoButton {
+  display: grid;
+  place-content: center;
+  flex: 1;
+}
+.FooterMainContainer .FooterComponants .FooterMainSection {
+  display: flex;
+  flex-direction: row;
+}
+.FooterMainContainer .FooterComponants .FooterMainSection .FooterLogo {
+  flex: 3;
+  padding: 2vw;
+}
+.FooterMainContainer .FooterComponants .FooterMainSection .FooterMenu {
+  flex: 1;
+  padding: 2vw;
+}
+.FooterMainContainer .FooterComponants .FooterMainSection .FooterMenu .FooterMenuLinks {
+  display: flex;
+  flex-direction: column;
+}
+.FooterMainContainer .FooterComponants .FooterMainSection .FooterContactUs {
+  flex: 1;
+  padding: 2vw;
+}
+.FooterMainContainer .FooterComponants .FooterMainSection .FooterContactUs .FooterContactUsLinks {
+  display: flex;
+  flex-direction: column;
+}
+.FooterMainContainer .FooterComponants .FooterMainSection .FooterSocialMedia {
+  flex: 1;
+  padding: 2vw;
+}/*# sourceMappingURL=Footer.css.map */

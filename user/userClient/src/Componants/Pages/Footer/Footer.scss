@@ -1,0 +1,49 @@
+.FooterMainContainer{
+    .FooterComponants{
+        .FooterAddNgoSection{
+            display: flex;
+            flex-direction: row;
+            padding: 3vw 0;
+            .AddNgoContent{ 
+                flex: 2.5;
+                padding: 0 10vw;
+            }
+            .AddNgoButton{
+                display: grid;
+                place-content: center;
+                flex: 1;
+            }
+        }
+        .FooterMainSection{
+            display: flex;
+            flex-direction: row;
+            // padding: 3vw 0 ;
+            .FooterLogo{
+                flex: 3;
+                padding: 2vw;
+            }
+            .FooterMenu{
+                flex: 1;
+                padding: 2vw;
+                .FooterMenuLinks{
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+            .FooterContactUs{
+                flex: 1;
+                padding: 2vw;
+                .FooterContactUsLinks{
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+            .FooterSocialMedia{
+                flex: 1;
+                padding: 2vw;
+                // display: flex;
+                // flex-direction: ro;
+            }
+        }
+    }
+}
