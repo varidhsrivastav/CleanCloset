@@ -5,6 +5,7 @@ import IntroCard from './LandingPageComponents/IntroCard/IntroCard'
 import MakingDiff from './LandingPageComponents/MakingDiff/MakingDiff'
 import Partners from './LandingPageComponents/Partners/Partners'
 import Service from './LandingPageComponents/Services/Service'
+import Testimonial from './LandingPageComponents/Testimonial/Testimonial'
 
 const LandingPage = () => {
   return (
@@ -14,6 +15,7 @@ const LandingPage = () => {
       <HowWeWork/>
       <MakingDiff/>
       <Partners/>
+      <Testimonial/>
     </div>
   )
 }

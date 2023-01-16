@@ -1,3 +1,10 @@
+.ParterMainContainer {
+  margin: 10vw 0;
+}
+.ParterMainContainer h1 {
+  text-align: center;
+  margin: 3vw 0;
+}
 .ParterMainContainer .PartnerContainer .CompaniesLogo {
   display: flex;
   flex-direction: row;
