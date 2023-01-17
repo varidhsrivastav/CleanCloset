@@ -1,0 +1,21 @@
+.DonationHeaderMainContainer .DonationHeaderContainer {
+  margin: 20px 0;
+  min-height: 50vh;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.DonationHeaderMainContainer .DonationHeaderContainer .DonationHeaderContent {
+  padding: 0 5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.DonationHeaderMainContainer .DonationHeaderContainer .DonationHeaderImage {
+  display: grid;
+  place-items: center;
+}
+.DonationHeaderMainContainer .DonationHeaderContainer .DonationHeaderImage img {
+  width: 100%;
+}/*# sourceMappingURL=DonationHeader.css.map */
