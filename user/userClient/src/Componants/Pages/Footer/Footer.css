@@ -1,4 +1,5 @@
 .FooterMainContainer .FooterComponants .FooterAddNgoSection {
+  border: 1px solid black;
   display: flex;
   flex-direction: row;
   padding: 3vw 0;

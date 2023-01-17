@@ -54,7 +54,11 @@ module.exports = {
       name: "userClient",
       filename: "remoteEntry.js",
       remotes: {},
-      exposes: {},
+      exposes: {
+        "./Navbar": "./src/Componants/Pages/Navbar/Navbar.jsx",
+        "./Footer": "./src/Componants/Pages/Footer/Footer.jsx"
+        
+      },
       shared: {
         ...deps,
         react: {

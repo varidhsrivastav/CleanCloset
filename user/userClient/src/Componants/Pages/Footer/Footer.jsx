@@ -4,20 +4,6 @@ const Footer = () => {
   return (
     <div className="FooterMainContainer">
       <div className="FooterComponants ">
-        <div className="FooterAddNgoSection ">
-        <div className="container FooterAddNgoSection">
-          <div className="AddNgoContent">
-            <h1> Lets Boost Your Business with Digimar Agency </h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. A,
-              maiores.
-            </p>
-          </div>
-          <div className="AddNgoButton">
-            <button>add ngo</button>
-          </div>
-        </div>
-        </div>
         <div className="FooterMainSection">
         <div className="container FooterMainSection">
         <div className="FooterLogo">

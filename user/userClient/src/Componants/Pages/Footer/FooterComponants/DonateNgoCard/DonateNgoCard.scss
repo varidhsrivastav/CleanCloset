@@ -1,0 +1,16 @@
+
+        .FooterAddNgoSection{
+            border: 1px solid black;
+            display: flex;
+            flex-direction: row;
+            padding: 3vw 0;
+            .AddNgoContent{ 
+                flex: 2.5;
+                padding: 0 10vw;
+            }
+            .AddNgoButton{
+                display: grid;
+                place-content: center;
+                flex: 1;
+            }
+        }

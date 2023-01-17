@@ -45,6 +45,9 @@
   width: 30vw;
   margin-right: 3em;
 }
+.introMainComponets .IntroComponents .IntroImageSide .IntroMapImage img {
+  width: 100%;
+}
 
 @media (max-width: 1000px) {
   .IntroComponents {
