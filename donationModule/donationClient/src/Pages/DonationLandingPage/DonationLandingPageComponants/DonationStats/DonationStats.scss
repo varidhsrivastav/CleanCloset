@@ -1,7 +1,9 @@
 .DonationStatsMainComponants {
+    margin: 3em 0 ;
     .DonationStasComponants {
         .DonationStatsComponatsContents {
             display: flex;
+            flex-wrap: wrap;
             gap: 3em;
             place-content: center;
             .DonationStatsCardBody {
@@ -14,7 +16,6 @@
                 .DonationStatscardIcon {
                     width: 40px;
                     margin: 0 1em 0 0.5em;
-
                     .lotieIcon {
                         width: 10%;
                     }

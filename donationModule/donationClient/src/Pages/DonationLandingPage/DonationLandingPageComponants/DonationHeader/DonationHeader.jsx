@@ -18,8 +18,18 @@ const DonationHeader = () => {
           <button>Donate</button>
           </div>
         </div>
-        <div className="DonationHeaderImage">
-          <img src={Donate} alt="DonationImage" />
+        <div className="DonationHeaderImage ">
+          {/* <img src={Donate} alt="DonationImage" /> */}
+          <lottie-player
+    src="https://assets3.lottiefiles.com/packages/lf20_3dweyago.json"
+              
+className="donationGif"              background="transparent"
+              speed="1"
+              // style="width: 300px; height: 300px;"
+              loop
+              // controls
+              autoplay
+            ></lottie-player>
         </div>
       </div>
     </div>

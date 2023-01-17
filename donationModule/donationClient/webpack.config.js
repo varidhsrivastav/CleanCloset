@@ -52,8 +52,12 @@ module.exports = {
     new ModuleFederationPlugin({
       name: "donationClient",
       filename: "remoteEntry.js",
-      remotes: {},
-      exposes: {},
+      remotes: {
+        userClient: "userClient@http://localhost:3001/remoteEntry.js"
+      },
+      exposes: {
+
+      },
       shared: {
         ...deps,
         react: {
