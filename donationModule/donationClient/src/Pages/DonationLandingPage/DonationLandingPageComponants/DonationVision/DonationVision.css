@@ -1,0 +1,22 @@
+.DonationVisionMainContainer {
+  margin: 4em 0;
+}
+.DonationVisionMainContainer .DonationVisionContainer {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 2em;
+}
+.DonationVisionMainContainer .DonationVisionContainer .DonationVisionContent {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-self: center;
+  align-items: center;
+}
+.DonationVisionMainContainer .DonationVisionContainer .DonationVisionContent h1 {
+  width: 70%;
+}
+.DonationVisionMainContainer .DonationVisionContainer .DonationVisionContent .donationVisionContetButton {
+  margin: 2em 0;
+}/*# sourceMappingURL=DonationVision.css.map */

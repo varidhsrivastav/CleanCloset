@@ -1,0 +1,23 @@
+.DonationVisionMainContainer{
+    margin: 4em 0;
+    .DonationVisionContainer{
+        border: 1px solid black;
+        border-radius: 10px;
+        padding: 2em ;
+        .DonationVisionContent{
+            margin: 2rem ;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            align-self: center;
+            align-items: center;
+            
+            h1{
+                width: 70%;
+            }
+            .donationVisionContetButton{
+                margin: 2em 0 ;
+            }
+        }
+    }
+}
