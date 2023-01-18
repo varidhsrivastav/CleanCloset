@@ -1,0 +1,45 @@
+.NgoStatsMainComponants {
+    margin: 3em 0 ;
+    .NgoStasComponants {
+        .NgoStatsComponatsContents {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 3em;
+            place-content: center;
+            .NgoStatsCardBody {
+                display: flex;
+                align-items: center;
+                border: 1px solid black;
+                border-radius: 10px;
+                padding: 2em 4em 2em 2em;
+
+                .NgoStatscardIcon {
+                    width: 40px;
+                    margin: 0 1em 0 0.5em;
+                    .lotieIcon {
+                        width: 10%;
+                    }
+                }
+
+                .NgoStatscardHead {
+
+                    // border: 1px solid black;
+                    h6 {
+                        line-height: 1em;
+                    }
+
+                    h2 {
+                        line-height: 0.7rem;
+                    }
+                }
+
+                .NgoStatscardStats {
+                    h2 {
+                        line-height: 0.1rem;
+                        // border: 1px solid black;
+                    }
+                }
+            }
+        }
+    }
+}

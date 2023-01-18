@@ -1,0 +1,22 @@
+.NgoVisionMainContainer {
+  margin: 4em 0;
+}
+.NgoVisionMainContainer .NgoVisionContainer {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 2em;
+}
+.NgoVisionMainContainer .NgoVisionContainer .NgoVisionContent {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-self: center;
+  align-items: center;
+}
+.NgoVisionMainContainer .NgoVisionContainer .NgoVisionContent h1 {
+  width: 70%;
+}
+.NgoVisionMainContainer .NgoVisionContainer .NgoVisionContent .NgoVisionContetButton {
+  margin: 2em 0;
+}/*# sourceMappingURL=NgoVision.css.map */

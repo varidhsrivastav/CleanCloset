@@ -1,0 +1,26 @@
+.NgoHeaderMainContainer .NgoHeaderContainer {
+  margin: 100px 0 0 0;
+  min-height: 70vh;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.NgoHeaderMainContainer .NgoHeaderContainer .NgoHeaderContent {
+  padding: 0 5vh;
+  padding: 0 5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+}
+.NgoHeaderMainContainer .NgoHeaderContainer .NgoHeaderImage {
+  flex: 1;
+  display: grid;
+  place-items: center;
+}
+.NgoHeaderMainContainer .NgoHeaderContainer .NgoHeaderImage lottie-player {
+  width: 100%;
+  overflow: hidden;
+  z-index: -1;
+}/*# sourceMappingURL=NgoHeade.css.map */
