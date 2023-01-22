@@ -6,7 +6,7 @@ import NgoLandingPage from "./Pages/NgoLandingPage/NgoLandingPage";
 
 const App = () => (
   <div className="ontaier">
-    <NgoLandingPage/>
+        <NgoLandingPage/>
   </div>
 );
 ReactDOM.render(<App />, document.getElementById("app"));
