@@ -1,13 +1,28 @@
-import React from "react";
+import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper";
 import logo from "./Image/CleanCloset.png";
+import verify from "./Image/pin.png";
 import "./DonationBasicDetail.css";
 import "swiper/css";
 import "swiper/css/pagination";
-// import "swiper/css/navigation";
 
 const DoationBasicDetailForm = () => {
+  const [modal, setModal] = useState(false);
+
+  const toggleModal = () => {
+    setModal(!modal);
+    console.log("clicked");
+  };
+
+  if (modal) {
+    document.body.classList.add("active-modal");
+    console.log("clicke2");
+  } else {
+    document.body.classList.remove("active-modal");
+    console.log("clicke3");
+  }
+
   return (
     <div className="DoationBasicDetailFormMContainer">
       <div className="DoationBasicDetailFormContainer">
@@ -99,17 +114,50 @@ const DoationBasicDetailForm = () => {
                 </div>
                 <div className="DBDFinputFields">
                   <label htmlFor="">Phone number</label>
-                  <input type="number" placeholder="+91 909 090 9090" />
+                  <div className="MobileOtpVerifyButton">
+                    <input type="number" placeholder="+91 909 090 9090" />
+                    <div className="VrifyButton">
+                      <a class="button-48" onClick={toggleModal}>
+                        <span class="text">Send Otp</span>
+                      </a>
+                    </div>
+                  </div>
                 </div>
                 <div className="DBDFSubmitbuttons">
                   <button class="button-85" role="button">
                     Button 85
                   </button>
                 </div>
+             
               </form>
             </div>
           </div>
         </div>
+        {modal && (
+                  <div className="DBDFVerifyModalContainer">
+                    <div className="DBDFVerifyModalBody">
+                      <div className="DBDFVerifyModalBoady">
+                        <div className="DBDFVerifyModalHeading">
+                          <h3>Verify Your Otp</h3>
+                        </div>
+                        <div className="DBDFVerifyModalImage">
+                          <img src={verify} alt="" />
+                        </div>
+                        <div className="DBDFVerifyModalInputField">
+                          <form action="">
+                            <div className="DBDFVerifyModalInputFieldForm">
+                              <label htmlFor="">Enter otp</label>
+                              <input type="number" />
+                            </div>
+                          </form>
+                        </div>
+                        <div className="DBDFVerifyModalButton">
+                          <button className="button-85">verify</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                )}
       </div>
     </div>
   );
