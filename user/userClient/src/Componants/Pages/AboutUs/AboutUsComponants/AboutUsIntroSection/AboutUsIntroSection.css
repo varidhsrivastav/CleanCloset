@@ -1,0 +1,39 @@
+.AboutUsIntroSectionMainContainer {
+  font-family: "Comfortaa", cursive;
+}
+.AboutUsIntroSectionMainContainer .AboutUsIntroSectionContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: #fff;
+  overflow: hidden;
+}
+.AboutUsIntroSectionMainContainer .AboutUsIntroSectionContainer .AboutUsImageintro img {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  z-index: -1;
+}
+.AboutUsIntroSectionMainContainer .AboutUsIntroSectionContainer h1 {
+  text-align: center;
+  font-weight: 900;
+  font-size: 64px;
+  color: #F15522;
+}
+.AboutUsIntroSectionMainContainer .AboutUsIntroSectionContainer p {
+  text-align: center;
+  width: 70%;
+}
+
+@media (max-width: 900px) {
+  .AboutUsIntroSectionMainContainer .AboutUsIntroSectionContainer h1 {
+    font-size: 48px;
+  }
+  .AboutUsIntroSectionMainContainer .AboutUsIntroSectionContainer p {
+    text-align: center;
+    width: 99%;
+  }
+}/*# sourceMappingURL=AboutUsIntroSection.css.map */

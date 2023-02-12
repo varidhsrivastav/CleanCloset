@@ -1,0 +1,48 @@
+@import "../../../../GlobalCss/GlobalCss.scss";
+.AboutUsIntroSectionMainContainer{
+font-family: $ComfertaFont;
+    .AboutUsIntroSectionContainer{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        color: #fff;
+        overflow: hidden;
+        .AboutUsImageintro{
+            img{
+                position: absolute;
+                top: 0%;
+                left: 0%;
+                z-index: -1;
+                // opacity: 0.9;
+            }
+        }
+
+        h1{
+            text-align: center;
+            font-weight: 900;
+            font-size: 64px;
+            color: #F15522;
+        }
+        p{
+            text-align: center;
+            width: 70%;
+        }
+    }
+}
+
+@media (max-width:900px){
+    .AboutUsIntroSectionMainContainer{
+            .AboutUsIntroSectionContainer{
+                h1{
+                    font-size: 48px;
+                }
+                p{
+                    text-align: center;
+                    width: 99%;
+                }
+            }
+        }   
+}
