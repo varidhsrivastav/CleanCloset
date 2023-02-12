@@ -1,16 +1,28 @@
-
-        .FooterAddNgoSection{
-            border: 1px solid black;
-            display: flex;
-            flex-direction: row;
-            padding: 3vw 0;
-            .AddNgoContent{ 
-                flex: 2.5;
-                padding: 0 10vw;
-            }
-            .AddNgoButton{
-                display: grid;
-                place-content: center;
-                flex: 1;
-            }
+@import "../../../../GlobalCss/GlobalCss.scss";
+.FooterNgoCardMainSection{
+// background-color: #e1e1e1;
+font-family: $ComfertaFont;
+    .FooterAddNgoSection {
+            padding: 5em 0;
+    .FooterAddNgoSectioncontainer{
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+        border: 1px solid black;
+        // background-color: $primaryColor;
+        // color: #fff;
+        border-radius: 10px;
+        padding: 3em 0;
+        justify-content: center;
+        align-items: center;
+        .AddNgoContent {
+            text-align: center;
         }
+
+        .AddNgoButton {
+            display: flex;
+            gap: 3em;
+        }
+    }
+        }
+}

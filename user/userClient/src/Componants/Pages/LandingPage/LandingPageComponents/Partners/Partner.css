@@ -1,16 +1,38 @@
 .ParterMainContainer {
-  margin: 10vw 0;
+  margin: 5em 0;
 }
 .ParterMainContainer h1 {
+  font-family: "Comfortaa", cursive;
   text-align: center;
   margin: 3vw 0;
 }
 .ParterMainContainer .PartnerContainer .CompaniesLogo {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
   gap: 2rem;
 }
+.ParterMainContainer .PartnerContainer .CompaniesLogo .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .ParterMainContainer .PartnerContainer .CompaniesLogo .logo img {
+  justify-self: center;
+  align-items: center;
   max-width: 100px;
   max-height: 100px;
+  filter: grayscale(1);
+}
+.ParterMainContainer .PartnerContainer .CompaniesLogo .logo img:hover {
+  filter: grayscale(0);
+}
+.ParterMainContainer .PartnerContainer .CompaniesLogo:hover {
+  cursor: pointer;
+}
+
+.swiper-wrapper {
+  display: flex;
+  align-items: center;
 }/*# sourceMappingURL=Partner.css.map */

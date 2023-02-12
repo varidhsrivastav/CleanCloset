@@ -1,0 +1,170 @@
+.RrrpagemainContainer {
+  font-family: "Comfortaa", cursive;
+  width: 100%;
+  margin: 10em 0;
+}
+.RrrpagemainContainer .Rrrpagecontainer {
+  width: 100%;
+  display: flex;
+}
+.RrrpagemainContainer .Rrrpagecontainer .rrrrepart {
+  padding: 0 0 0 6rem;
+  width: 50%;
+}
+.RrrpagemainContainer .Rrrpagecontainer .rrrrepart h1 {
+  font-weight: 900;
+  font-size: 10rem;
+}
+.RrrpagemainContainer .Rrrpagecontainer .rrrrepart p {
+  font-size: 1.5em;
+  padding: 0 0 0 3rem;
+}
+.RrrpagemainContainer .Rrrpagecontainer .rrrreFullFormPat {
+  width: 50%;
+}
+.RrrpagemainContainer .Rrrpagecontainer .rrrreFullFormPat .Redis {
+  font-size: 3.5rem;
+  line-height: 0.8;
+  color: rgba(161, 159, 159, 0.8823529412);
+}
+.RrrpagemainContainer .Rrrpagecontainer .rrrreFullFormPat .Redu {
+  font-weight: 900;
+  color: rgba(8, 7, 7, 0.8823529412);
+  font-size: 6rem;
+  line-height: 0.8;
+}
+.RrrpagemainContainer .Rrrpagecontainer .rrrreFullFormPat .Reuse {
+  font-size: 6rem;
+  line-height: 0.8;
+  color: rgba(27, 27, 27, 0.8823529412);
+}
+.RrrpagemainContainer .Rrrpagecontainer .rrrreFullFormPat .Reclaim {
+  font-size: 4rem;
+  color: rgba(161, 159, 159, 0.8823529412);
+  line-height: 0.8;
+}
+.RrrpagemainContainer .Rrrpagecontainer .rrrreFullFormPat .Repur {
+  font-size: 3rem;
+  line-height: 0.8;
+  color: rgba(161, 159, 159, 0.8823529412);
+}
+.RrrpagemainContainer .Rrrpagecontainer .rrrreFullFormPat .Regenerate {
+  font-size: 3.1rem;
+  line-height: 0.8;
+  color: rgba(78, 78, 78, 0.8823529412);
+}
+.RrrpagemainContainer .Rrrpagecontainer .rrrreFullFormPat .Recycle {
+  font-size: 6rem;
+  line-height: 0.8;
+  font-weight: 900;
+  color: rgba(17, 16, 16, 0.8823529412);
+}
+
+@media (max-width: 900px) {
+  .RrrpagemainContainer .Rrrpagecontainer .rrrrepart {
+    width: 100%;
+    padding: 0 !important;
+  }
+  .RrrpagemainContainer .Rrrpagecontainer .rrrrepart h1 {
+    font-weight: 900;
+    font-size: 10rem;
+  }
+  .RrrpagemainContainer .Rrrpagecontainer .rrrrepart p {
+    font-size: 1.5em;
+    padding: 0 0 0 0rem;
+  }
+  .RrrpagemainContainer .Rrrpagecontainer .rrrreFullFormPat {
+    width: 100%;
+  }
+  .RrrpagemainContainer .Rrrpagecontainer .rrrreFullFormPat .Redis {
+    font-size: 3.5rem;
+    line-height: 0.8;
+    color: rgba(161, 159, 159, 0.8823529412);
+  }
+  .RrrpagemainContainer .Rrrpagecontainer .rrrreFullFormPat .Redu {
+    font-weight: 900;
+    color: rgba(8, 7, 7, 0.8823529412);
+    font-size: 6rem;
+    line-height: 0.8;
+  }
+  .RrrpagemainContainer .Rrrpagecontainer .rrrreFullFormPat .Reuse {
+    font-size: 6rem;
+    line-height: 0.8;
+    color: rgba(27, 27, 27, 0.8823529412);
+  }
+  .RrrpagemainContainer .Rrrpagecontainer .rrrreFullFormPat .Reclaim {
+    font-size: 4rem;
+    color: rgba(161, 159, 159, 0.8823529412);
+    line-height: 0.8;
+  }
+  .RrrpagemainContainer .Rrrpagecontainer .rrrreFullFormPat .Repur {
+    font-size: 3rem;
+    line-height: 0.8;
+    color: rgba(161, 159, 159, 0.8823529412);
+  }
+  .RrrpagemainContainer .Rrrpagecontainer .rrrreFullFormPat .Regenerate {
+    font-size: 3.1rem;
+    line-height: 0.8;
+    color: rgba(78, 78, 78, 0.8823529412);
+  }
+  .RrrpagemainContainer .Rrrpagecontainer .rrrreFullFormPat .Recycle {
+    font-size: 6rem;
+    line-height: 0.8;
+    font-weight: 900;
+    color: rgba(17, 16, 16, 0.8823529412);
+  }
+}
+@media (max-width: 500px) {
+  .RrrpagemainContainer .Rrrpagecontainer {
+    flex-direction: column;
+  }
+  .RrrpagemainContainer .Rrrpagecontainer .rrrrepart h1 {
+    font-weight: 900;
+    font-size: 8rem;
+  }
+  .RrrpagemainContainer .Rrrpagecontainer .rrrrepart p {
+    font-size: 1.5em;
+    padding: 0 !important;
+  }
+  .RrrpagemainContainer .Rrrpagecontainer .rrrreFullFormPat {
+    width: 50%;
+    padding: 0 !important;
+  }
+  .RrrpagemainContainer .Rrrpagecontainer .rrrreFullFormPat .Redis {
+    font-size: 2.5rem;
+    line-height: 0.8;
+    color: rgba(161, 159, 159, 0.8823529412);
+  }
+  .RrrpagemainContainer .Rrrpagecontainer .rrrreFullFormPat .Redu {
+    font-weight: 900;
+    color: rgba(8, 7, 7, 0.8823529412);
+    font-size: 5rem;
+    line-height: 0.8;
+  }
+  .RrrpagemainContainer .Rrrpagecontainer .rrrreFullFormPat .Reuse {
+    font-size: 5rem;
+    line-height: 0.8;
+    color: rgba(27, 27, 27, 0.8823529412);
+  }
+  .RrrpagemainContainer .Rrrpagecontainer .rrrreFullFormPat .Reclaim {
+    font-size: 3rem;
+    color: rgba(161, 159, 159, 0.8823529412);
+    line-height: 0.8;
+  }
+  .RrrpagemainContainer .Rrrpagecontainer .rrrreFullFormPat .Repur {
+    font-size: 2rem;
+    line-height: 0.8;
+    color: rgba(161, 159, 159, 0.8823529412);
+  }
+  .RrrpagemainContainer .Rrrpagecontainer .rrrreFullFormPat .Regenerate {
+    font-size: 2.1rem;
+    line-height: 0.8;
+    color: rgba(78, 78, 78, 0.8823529412);
+  }
+  .RrrpagemainContainer .Rrrpagecontainer .rrrreFullFormPat .Recycle {
+    font-size: 5rem;
+    line-height: 0.8;
+    font-weight: 900;
+    color: rgba(17, 16, 16, 0.8823529412);
+  }
+}/*# sourceMappingURL=RrrPage.css.map */

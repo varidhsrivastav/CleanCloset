@@ -4,7 +4,7 @@ import { Router } from "react-router-dom";
 import Footer from "./Componants/Pages/Footer/Footer";
 import LandingPage from "./Componants/Pages/LandingPage/LandingPage";
 import Navbar from "./Componants/Pages/Navbar/Navbar";
-
+import "./Componants/GlobalCss/ButtonScss.css";
 import "./index.css";
 
 const App = () => (

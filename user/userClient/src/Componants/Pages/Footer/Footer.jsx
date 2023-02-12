@@ -1,44 +1,65 @@
 import React from "react";
-import "./Footer.css"
+import "./Footer.css";
+import call from "./FooterComponants/img/call.png";
+import email from "./FooterComponants/img/message.png";
 const Footer = () => {
   return (
     <div className="FooterMainContainer">
-      <div className="FooterComponants ">
-        <div className="FooterMainSection">
-        <div className="container FooterMainSection">
-        <div className="FooterLogo">
-            <h1>
-              Clean
-              <br /> Closet
-            </h1>
-            <p>Copyright @ 2023</p>
-          </div>
-          <div className="FooterMenu">
-            <h4>Menu</h4>
-            <div className="FooterMenuLinks">
-            
-            <a href="/">Home</a>
-            <a href="/">Home</a>
-            <a href="/">Home</a>
-            <a href="/">Home</a>
-            </div>
-          </div>
-          <div className="FooterContactUs">
-            <h4>Contact Us</h4>
-            <div className="FooterContactUsLinks">
-              <a href="/">Facebook</a>
-              <a href="/">Facebook</a>
-              <a href="/">Facebook</a>
-            </div>
-          </div>
-          <div className="FooterSocialMedia">
-            <h4>Social Media</h4>
-            <a href="/">icon</a>
-            <a href="/">icon</a>
-            <a href="/">icon</a>
-          </div>
+      <div className="FooterComponants container">
+        <p>Contact our volenteers and join the Clean Closet </p>
+        <div className="FooterContactSections  ">
+          <a className="FooterCall">
+            <img src={call} alt="" />
+            <h3>+91 956 517 1812</h3>
+          </a>
+          <a href="" className="FooterEmail">
+            <img src={email} alt="" />
+            <h3>help@cleancloset.com</h3>
+          </a>
         </div>
-    
+        <hr />
+        <div className="FooterMainSectionComponants">
+          <div className="FooterMainSectionNavigation">
+            <div className="FooterMainSectionNavigationLogo">
+              <img src="" alt="" />
+              <h3>CleanCloset</h3>
+            </div>
+            <div className="FooterMainSectionNavigationSections">
+              <a href="">
+                <h6>About Us</h6>
+              </a>
+              <a href="">
+                <h6>Contact Us</h6>
+              </a>
+
+              <a href="">
+                <h6>Add Ngo </h6>
+              </a>
+            </div>
+            <div className="FooterMainSectionNavigationBotton">
+              <button class="button-18" role="button">
+                Donate
+              </button>
+            </div>
+          </div>
+          <div className="CleanClosetSummeryFooter">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+            minus, vel quod numquam est aspernatur quo sit nisi. Error, a! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam earum sequi vitae deserunt harum. Beatae harum eligendi quaerat! Deleniti, officia?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur vero eos impedit, laboriosam adipisci ex velit neque asperiores ad! Nobis.
+          </div>
+          <div className="CleanClosetCopyrightFooter">
+            <a href="">
+             @2023 copyright CleanCloset
+            </a>
+            <div className="PolicyLinksandcookies">
+
+            <a href="" className="PrivacyPolicy">
+              Privacy Policy
+            </a>
+            <a href="" className="Cookies">
+              Cookies
+            </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>

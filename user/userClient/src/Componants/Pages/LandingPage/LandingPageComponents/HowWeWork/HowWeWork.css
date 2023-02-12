@@ -1,33 +1,56 @@
 .HowWeMainContainer .howweworkcontainer {
-  margin: 10vw 0;
+  padding: 10vh 0;
+  font-family: "Comfortaa", cursive;
   text-align: center;
+}
+.HowWeMainContainer .howweworkcontainer h6 {
+  color: #e14b31;
 }
 .HowWeMainContainer .howweworkcontainer .HowWeWorkCardContainer {
   display: flex;
-  gap: 2rem;
-  margin: 5vw 0;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4em;
 }
 .HowWeMainContainer .howweworkcontainer .HowWeWorkCardContainer .HowWeWOrkCardBody {
-  border: 1px solid black;
+  background-color: #fff;
+  max-width: 350px;
   border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   display: grid;
   place-content: center;
   place-items: center;
   min-height: 200px;
+  margin: 50px 10px;
+}
+.HowWeMainContainer .howweworkcontainer .HowWeWorkCardContainer .HowWeWOrkCardBody #donateatyour {
+  margin: 40px 0 0 0;
 }
 .HowWeMainContainer .howweworkcontainer .HowWeWorkCardContainer .HowWeWOrkCardBody .HowWeWorkCardicon {
-  border: 1px solid black;
   border-radius: 50%;
-  height: 70px;
-  width: 70px;
-  margin-top: -30%;
-  background-color: white;
+  height: 100px;
+  width: 100px;
+  margin-top: -50px;
+  background-color: #FC4E57;
   display: grid;
   place-content: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.HowWeMainContainer .howweworkcontainer .HowWeWorkCardContainer .HowWeWOrkCardBody .HowWeWorkCardicon img {
+  width: 40px;
+  height: 40px;
 }
 .HowWeMainContainer .howweworkcontainer .HowWeWorkCardContainer .HowWeWOrkCardBody .HwwCardHeading {
-  margin: 5px 0;
+  color: #22a7f0;
+  margin: 20px 0;
 }
 .HowWeMainContainer .howweworkcontainer .HowWeWorkCardContainer .HowWeWOrkCardBody .HwwCardPara {
   width: 70%;
+}
+.HowWeMainContainer .howweworkcontainer .HowWeWorkCardContainer .HowWeWOrkCardBody .HwwCardButton {
+  margin: 20px 0 -20px 0;
+}
+.HowWeMainContainer .howweworkcontainer .HowWeWorkCardContainer .HowWeWOrkCardBody .HwwCardButton button {
+  background-color: #FC4E57 !important;
 }/*# sourceMappingURL=HowWeWork.css.map */

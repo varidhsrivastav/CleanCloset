@@ -1,5 +1,6 @@
 import React from "react";
 import "./Service.css";
+import donate from "./Image/solidarity.png";
 
 const Service = () => {
   return (
@@ -9,16 +10,17 @@ const Service = () => {
           <div className="SectionCards">
             <div className="ServiceCardBoday">
               <div className="serviceIcon">
-                <lord-icon
-                  src="https://cdn.lordicon.com/tqywkdcz.json"
-                  trigger="hover"
-                  autoplay
-                  loop
-                  background="transparent"
-              speed="1"
-                >
-
-                </lord-icon>
+                <img src={donate} alt="" />
+              </div>
+              <h3>Lorem</h3>
+              <p>
+                Lorem ipsum dolor, sit amet con sectetur adipisicing elit.
+                Quaerat dolor cum,
+              </p>
+            </div>
+            <div className="ServiceCardBoday">
+            <div className="serviceIcon">
+                <img src={donate} alt="" />
               </div>
               <h3>Lorem</h3>
               <p>
@@ -27,11 +29,8 @@ const Service = () => {
               </p>
             </div>
             <div className="ServiceCardBoday">
-              <div className="serviceIcon">
-                <lord-icon
-                  src="https://cdn.lordicon.com/tqywkdcz.json"
-                  trigger="hover"
-                ></lord-icon>
+            <div className="serviceIcon">
+                <img src={donate} alt="" />
               </div>
               <h3>Lorem</h3>
               <p>
@@ -40,24 +39,8 @@ const Service = () => {
               </p>
             </div>
             <div className="ServiceCardBoday">
-              <div className="serviceIcon">
-                <lord-icon
-                  src="https://cdn.lordicon.com/tqywkdcz.json"
-                  trigger="hover"
-                ></lord-icon>
-              </div>
-              <h3>Lorem</h3>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Quaerat dolor cum,
-              </p>
-            </div>
-            <div className="ServiceCardBoday">
-              <div className="serviceIcon">
-                <lord-icon
-                  src="https://cdn.lordicon.com/tqywkdcz.json"
-                  trigger="hover"
-                ></lord-icon>
+            <div className="serviceIcon">
+                <img src={donate} alt="" />
               </div>
               <h3>Lorem</h3>
               <p>
@@ -67,13 +50,16 @@ const Service = () => {
             </div>
           </div>
           <div className="ServiceSectionImage">
+            <h6>Services</h6>
             <h1>Several donation program that can make it easier for you</h1>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam,
               ipsum?
             </p>
             <div className="ServiceButton">
-              <button>Donate Now</button>
+              <button class="button-24" role="button">
+                Donate Now
+              </button>
             </div>
           </div>
         </div>

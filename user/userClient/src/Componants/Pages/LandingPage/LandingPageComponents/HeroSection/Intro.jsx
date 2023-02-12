@@ -2,17 +2,17 @@ import React from "react";
 import "./Intro.css";
 import india from "./Image/indiamap.png";
 import donate from "./Image/colthpng.png"
-
+import back from "./Image/mesh-gradient.png"
 const Intro = () => {
   return (
     <div className="introMainComponets">
-      <div className="IntroComponents">
-        <div className="IntroContentSide">
-          <h1>A world Where no child's life is torn apart by war</h1>
+      {/* <div className="back"><img src={back} alt="" /></div> */}
+      <div className="IntroComponents ">
+      
+        <div className="IntroContentSide ">
+          <h1>When you <span className="orange">donate</span> to a <span className="blue">charity</span> , you <span className="orange">gain</span>  more than you <span className="blue">lose.</span> </h1>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus
-            necessitatibus, laborum ab architecto delectus quo officia quam
-            dignissimos ex libero!
+          Maybe your small contribution could get some clothes for a young boy during the chilly nights, and donate for a change.
           </p>
           <div className="IntroButtons">
             <div className="DonateButtons">
@@ -21,22 +21,28 @@ const Intro = () => {
               </button>
             </div>
             <div className="DiscoverButton">
-              <a href="">discover now</a>
+              <a href="">Discover now <span class="material-symbols-outlined">
+arrow_forward
+</span></a>
             </div>
           </div>
+          {/* <div className="LandingpageIntroStats">
+            <div className="LandingpageIntroStatsContent">
+              <dv className="LandingpageIntroStatsCBody">
+                <div className="LandingpageIntroStatsCBicon">
+
+                </div>
+                <div className="LandingpageIntroStatsCBstats">
+                  <h3>7474c</h3>
+                  <p>Program Completed</p>
+                </div>
+              </dv>
+            </div>
+          </div> */}
         </div>
         <div className="IntroImageSide">
           <div className="IntroMapImage">
             <img src={donate} alt="" />
-            {/* <lottie-player
-    src="https://assets3.lottiefiles.com/packages/lf20_3dweyago.json"
-              background="transparent"
-              speed="1"
-              // style="width: 300px; height: 300px;"
-              loop
-              // controls
-              autoplay
-            ></lottie-player> */}
           </div>
         </div>
       </div>

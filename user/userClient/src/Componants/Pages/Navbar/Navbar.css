@@ -7,7 +7,7 @@
   will-change: transform;
   transition: transform 200ms linear;
   color: #000;
-  background-color: #fff;
+  background-color: #F2D8CF;
 }
 
 .navbar[class*=-unpinned] {
@@ -74,14 +74,14 @@
 
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
-  color: #ffc200;
+  color: #de6e56;
   font-weight: bold;
 }
 
 .navbar-light .navbar-nav .nav-link:focus span,
 .navbar-light .navbar-nav .nav-link:hover span {
   transform: translateY(-100%);
-  color: #ffc200;
+  color: #de6e56;
 }
 
 .navbar-light .navbar-toggler-icon {
@@ -97,12 +97,12 @@
   outline: none;
   cursor: pointer;
   margin-right: 10px;
-  color: #ffc200;
+  color: #de6e56;
 }
 
 .navbar-toggler:focus {
   outline: none;
-  color: #ffc200;
+  color: #a7d5ed;
 }
 
 .navbar-toggler[aria-expanded=true] .navbar-toggler-icon:first-child {
@@ -117,7 +117,7 @@
 .navbar-toggler[aria-expanded=true] .navbar-toggler-icon:last-child {
   transform: rotate(-45deg);
   bottom: 1px;
-  color: #ffc200;
+  color: #de6e56;
 }
 
 .navbar-toggler .navbar-toggler-icon {
@@ -132,13 +132,13 @@
 
 @media (max-width: 580px) {
   .navbar-toggler .navbar-toggler-icon {
-    background: #ffc200;
+    background: #de6e56;
   }
   .nav-link span {
     color: #000;
   }
   #navbarNav {
-    background-color: #1a1a1a;
+    background-color: #e2e2e2;
   }
 }
 .navbar-brand img {

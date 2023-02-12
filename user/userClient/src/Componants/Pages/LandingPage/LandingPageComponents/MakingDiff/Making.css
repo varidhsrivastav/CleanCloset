@@ -1,22 +1,56 @@
+.MakingDiffMainContainer {
+  font-family: "Comfortaa", cursive;
+}
 .MakingDiffMainContainer .MakingDiffConatiner {
-  margin: 5vw 20vw;
   display: flex;
 }
 .MakingDiffMainContainer .MakingDiffConatiner .MakingDiffPhoto {
   width: 100%;
 }
 .MakingDiffMainContainer .MakingDiffConatiner .MakingDiffPhoto img {
-  width: 100%;
+  width: 80%;
 }
 .MakingDiffMainContainer .MakingDiffConatiner .MakingDiffContent {
-  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
+.MakingDiffMainContainer .MakingDiffConatiner .MakingDiffContent h6 {
+  color: #e14b31;
+}
+.MakingDiffMainContainer .MakingDiffConatiner .MakingDiffContent h1 {
+  font-weight: 700;
+}
 .MakingDiffMainContainer .MakingDiffConatiner .MakingDiffContent .MangingDiffInsideContent .MakingDiffInsideContentBody {
   display: flex;
+  padding: 10px 0;
 }
 .MakingDiffMainContainer .MakingDiffConatiner .MakingDiffContent .MangingDiffInsideContent .MakingDiffInsideContentBody .MakingDiffICBodyIcon {
   padding: 10px;
+}
+.MakingDiffMainContainer .MakingDiffConatiner .MakingDiffContent .MangingDiffInsideContent .MakingDiffInsideContentBody .MakingDiffICBodyIcon img {
+  width: 40px;
+  height: 40px;
+}
+
+@media (max-width: 900px) {
+  .MakingDiffMainContainer .MakingDiffConatiner {
+    display: flex;
+    flex-direction: column;
+  }
+  .MakingDiffMainContainer .MakingDiffConatiner .MakingDiffPhoto {
+    text-align: center;
+  }
+  .MakingDiffMainContainer .MakingDiffConatiner .MakingDiffPhoto img {
+    width: 60%;
+  }
+  .MakingDiffMainContainer .MakingDiffConatiner .MakingDiffContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .MakingDiffMainContainer .MakingDiffConatiner .MakingDiffContent .MangingDiffInsideContent .MakingDiffInsideContentBody .MakingDiffICBodyIcon {
+    padding: 10px;
+  }
 }/*# sourceMappingURL=Making.css.map */

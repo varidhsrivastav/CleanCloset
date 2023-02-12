@@ -1,39 +1,71 @@
+@import "../../../../GlobalCss//GlobalCss.scss";
+
 .HowWeMainContainer {
+
     .howweworkcontainer {
-        margin: 10vw 0;
+        padding: $MainContainerMargin;
+        font-family: $ComfertaFont;
         text-align: center;
-        // display: flex;
-        // flex-direction: row;
+        h6{
+            color: $primaryColor;
+        }
         .HowWeWorkCardContainer {
             display: flex;
-            gap: 2rem;
-            margin: 5vw 0;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            // gap: 6rem;
+            margin-top: 4em;
+            
             .HowWeWOrkCardBody {
-                border: 1px solid black;
+                // background-color: $mutedColor;
+                background-color: #fff;
+                max-width: 350px;
                 border-radius: 10px;
+                box-shadow: $box-shadow1;
                 display: grid;
                 place-content: center;
                 place-items: center;
                 min-height: 200px;
+                margin: 50px 10px ;
+
+                #donateatyour {
+                    margin: 40px 0 0 0;
+                }
 
                 .HowWeWorkCardicon {
-                    border: 1px solid black;
                     border-radius: 50%;
-                    height: 70px;
-                    width: 70px;
-                    margin-top: -30%;
-                    background-color: white;    
+                    height: 100px;
+                    width: 100px;
+                    margin-top: -50px;
+                    background-color: #FC4E57;
                     display: grid;
                     place-content: center;
+                    box-shadow: $box-shadow1;
+
+                    img {
+                        width: 40px;
+                        height: 40px;
+                    }
 
 
                 }
-                .HwwCardHeading{
-                    // color: blue;
-                    margin: 5px 0 ;
+
+                .HwwCardHeading {
+                    color: $secondaryColor;
+                    margin: 20px 0;
                 }
-                .HwwCardPara{
+
+                .HwwCardPara {
                     width: 70%;
+                }
+
+                .HwwCardButton {
+                    margin: 20px 0 -20px 0;
+
+                    button {
+                        background-color: #FC4E57 !important;
+                    }
                 }
             }
         }

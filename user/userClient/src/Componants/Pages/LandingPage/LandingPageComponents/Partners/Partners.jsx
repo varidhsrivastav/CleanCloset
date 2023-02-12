@@ -1,9 +1,9 @@
 import React from "react";
 import "./Partner.css";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Pagination, Navigation } from "swiper";
-
+import { Swiper, SwiperSlide, } from "swiper/react";
+import { Autoplay } from "swiper";
 import "swiper/css";
+import "swiper/css/autoplay";
 import cbf from "./Image/clothsBoxFoundation.png";
 import gf from "./Image/gf.png";
 import logo from "./Image/logo.gif";
@@ -16,19 +16,46 @@ import udaan from "./Image/udaan-new-logo-big.png";
 const Partners = () => {
   return (
     <div className="ParterMainContainer">
-      <h1>Trusted By</h1>
+      {/* <h1>Trusted By</h1> */}
       <div className="PartnerContainer container">
         <div className="CompaniesLogo">
           <Swiper
             spaceBetween={50}
             slidesPerView={5}
+            modules={[Autoplay]}
+            loop={true}
             autoplay={{
-              delay: 1500,
-             
+              delay: 500,
+              disableOnInteraction: false,
             }}
-            modules={[Autoplay, Pagination, Navigation]}
-            onSlideChange={() => console.log("slide change")}
-            onSwiper={(swiper) => console.log(swiper)}
+            breakpoints={{
+              // when window width is >= 320px
+              320: {
+                slidesPerView: 2,
+                spaceBetween: 40,
+              },
+              375: {
+                slidesPerView: 3,
+                spaceBetween: 40,
+              },
+              // when window width is >= 480px
+              480: {
+                slidesPerView: 3,
+                spaceBetween: 40,
+              },
+              700: {
+                slidesPerView: 4,
+                spaceBetween: 40,
+              },
+              900: {
+                slidesPerView: 5,
+                spaceBetween: 40,
+              },
+              1200: {
+                slidesPerView: 6,
+                spaceBetween: 60,
+              },
+            }}
           >
             <SwiperSlide>
               <div className="Logo1 logo">
