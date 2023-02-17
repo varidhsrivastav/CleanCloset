@@ -11,7 +11,7 @@ const DonationVision = () => {
             amet?
           </h1>
           <div className="donationVisionContetButton">
-            <button>Donate now</button>
+            <button className='DonateButton'>Donate now</button>
           </div>
         </div>
       </div>

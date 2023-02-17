@@ -3,11 +3,16 @@ import "./DonationSignupForm.css";
 import google from "./Image/google.png";
 import linkedin from "./Image/linkedin.png";
 import buddha from "./Image/buddha.png";
+import logo from "./Image/login.png";
 const DonationSignupForm = () => {
   return (
     <div className="DonationSignupFormMainComponants">
       <div className="DonationSignupFormComponants">
         <div className="DsFLeftSide">
+        <div className="DsFLeftSideLogo">
+          <img src={logo} alt="" />
+        </div>
+
           <div className="DsFleftSideContent">
             <h1>Sign in to CleanCloset</h1>
           </div>
@@ -24,7 +29,7 @@ const DonationSignupForm = () => {
                 className="GoogleLoginButton  DonationLoginButton"
               >
                 <img src={linkedin} alt="" />
-                <p>Sign Up with Google</p>
+                <p>Sign Up with Linkedin</p>
               </button>
             </div>
           </div>
@@ -44,7 +49,7 @@ const DonationSignupForm = () => {
           </div>
           <div className="TermAndCondition">
             <p>
-              By signing up you agree to Graphy's 
+              By signing up you agree to CleanCloset  
               <a href="">
               Terms of service and Privacy
               policy

@@ -1,27 +1,44 @@
+@import "../../Globalcss/Globalcss.scss";
 .DonationSignupFormMainComponants {
+    margin: 68px 0 50px 0 ;
+    font-family: $ComfertaFont;
     overflow: hidden;
     .DonationSignupFormComponants {
         display: flex;
         flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
         .DsFLeftSide{
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+            .DsFLeftSideLogo{
+                img{
+                    width: 70px;
+                }
+            }
+            text-align: center;
             justify-items: center;
+            align-items: center;
             justify-content: center;
+            width: 40%;
+            margin: 3em 0;
             .DsFleftSideContent{
                 margin: 2em 0;
+                h1{
+                    font-weight: 900;
+                }
             }
             .DsFleftLoginButtons{
                 display: flex;
                 flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            
                 gap: 1rem;
                 .DonationLoginButton{
-                    border: none;
-                    background-color: #a3a0a0;
+                    border: 1px solid rgb(141, 141, 141);
+                    background-color: #fff;
                     border-radius: 10px;
-                    padding: 5px 0 ;
+                    padding: 10px 30px ;
                     text-decoration: none;
                     display: flex;
                     flex-direction: row;
@@ -31,7 +48,7 @@
                         margin: 0 16px;
                     }
                     img{
-                        width: 50px;
+                        width: 30px;
                         margin: 0 0 0 10px;
                     }
                 }
@@ -44,15 +61,23 @@
             }
         }
         .DsFRightSide {
-            // background-color: aqua;
-            width: 75%;
-            min-height: 100vh;
-            border: 1px solid black;
+            background-color: #FEEA94;
+            width: 60%;
+            min-height: 93vh;
             .DsFRightSideContent {
-                margin: 5em 0;
-                padding: 0 5vh;
-                h1 {
-                    // font-size: 20px;
+                margin: 1em 0 !important;
+                padding: 3vh 5vh;
+                h2 {
+                    font-weight: 700;
+                    // letter-spacing:2px;
+    text-shadow: 0px 1px, 1px 0px, 1px 1px;
+                }
+                p{
+                    color: #246359;
+                    letter-spacing:2px;
+    text-shadow: 0px 1px, 1px 0px, 1px 1px;
+                    font-weight: 700;
+                    font-size: 24px;
                 }
             }
             .DsFRigthSideContentImage {
@@ -69,7 +94,84 @@
                 margin-top: 30px;
                 a{
                     text-decoration: none;
+                    color: #246359;
+                    font-weight: 700;
+
                     
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:900px){
+    .DonationSignupFormMainComponants {
+        overflow: hidden;
+        .DonationSignupFormComponants {
+            display: flex;
+            flex-direction: column-reverse;
+            .DsFLeftSide{
+                margin: 5em 0  ;
+                width: 100%;
+                .DsFleftSideContent{
+                    margin: 2em 0;
+                }
+                .DsFleftLoginButtons{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1rem;
+                    .DonationLoginButton{
+                        border-radius: 10px;
+                        padding: 10px 30px ;
+                        text-decoration: none;
+                        display: flex;
+                        flex-direction: row;
+                        align-content: center;
+                        align-items: center;
+                        p{
+                            margin: 0 16px;
+                        }
+                        img{
+                            width: 40px;
+                            margin: 0 0 0 10px;
+                        }
+                    }
+                }
+                .DonationLoginTermAndCondition{
+                    margin: 30vh 0 0 0 ;
+                    a{
+                        text-decoration: none;
+                    }
+                }
+            }
+            .DsFRightSide {
+                // background-color: aqua;
+                width: 100%;
+                min-height: 65vh;
+                .DsFRightSideContent {
+                    margin: 7em 0;
+                    h1 {
+                        // font-size: 20px;
+                    }
+                }
+                .DsFRigthSideContentImage {
+                    display: flex;
+                    justify-content: center;
+                    align-content: center;
+                    img {
+                        margin: 4vh;
+                        width: 200px;
+                        height: 200px;
+                        top: 0;
+                    }
+                }
+                .TermAndCondition{
+                    text-align: center;
+                    margin-top: 30px;
+                    a{
+                        text-decoration: none;
+                        
+                    }
                 }
             }
         }

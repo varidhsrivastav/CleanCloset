@@ -1,4 +1,5 @@
 import React from "react";
+import left from "./Image/left-arrow.png"
 import "./DonationTimeline.css";
 import certificate from "./Image/certificate.png";
 import delivery from "./Image/delivery.png";
@@ -11,15 +12,15 @@ const DonationTimelineContent = () => {
   return (
     <div className="DonationTimelineContentMainComponants">
       <div className="DotiButtonBack">
-        <button class="button-86" role="button">
-          Back
-        </button>
+        <a role="button">
+          <img src={left} alt="" />
+        </a>
       </div>
       <div className="DonationTimelineInfoContainer">
         <div className="DonationTimelineContents container">
         <div className="DtpContent">
 
-          <h1>Create new project</h1>
+          <h1>Donate now with these simple steps</h1>
           <p>Lorem ipsum dolor sit amet.</p>
         </div>
           <div className="DonationTimelineCard">
@@ -87,7 +88,7 @@ const DonationTimelineContent = () => {
             </div>
           </div>
           <div className="DotiButton">
-            <button class="button-86" role="button">
+            <button class="DonateButton" role="button">
               Continue
             </button>
           </div>
