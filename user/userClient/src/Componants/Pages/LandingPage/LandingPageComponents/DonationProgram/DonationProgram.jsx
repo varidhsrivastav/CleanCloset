@@ -24,7 +24,7 @@ const DonationProgram = () => {
                   <div
                     className="progress-bar"
                     role="progressbar"
-                    style={{ width: "25%" }}
+                    style={{ width: "35%" }}
                     aria-valuenow="25"
                     aria-valuemin="0"
                     aria-valuemax="100"

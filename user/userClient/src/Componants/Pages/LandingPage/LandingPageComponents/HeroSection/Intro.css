@@ -1,6 +1,3 @@
-.introMainComponets {
-  background-color: rgba(225, 166, 146, 0.4431372549);
-}
 .introMainComponets .IntroComponents {
   height: 100vh;
   margin: 0 10vw;
@@ -18,11 +15,13 @@
   font-family: "Fredoka One", cursive;
   width: 100%;
   font-size: 3vw;
+  color: #246359;
 }
 .introMainComponets .IntroComponents .IntroContentSide p {
   font-size: 1vw;
   margin: 1em 0;
   width: 70%;
+  color: #90BA93;
 }
 .introMainComponets .IntroComponents .IntroContentSide .IntroButtons {
   display: flex;
@@ -119,12 +118,16 @@
     margin-top: 30px;
   }
   .IntroComponents .IntroImageSide {
-    margin: 7em 0 0 0;
+    margin: 0;
     display: flex;
   }
   .IntroComponents .IntroImageSide .IntroMapImage {
+    position: absolute;
+    top: 5%;
+    left: 10%;
     width: 100% !important;
     margin-right: 3em;
+    z-index: -1;
   }
   .IntroComponents .IntroImageSide .IntroMapImage img {
     width: 100%;

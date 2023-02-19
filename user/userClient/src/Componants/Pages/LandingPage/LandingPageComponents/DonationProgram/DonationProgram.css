@@ -1,5 +1,6 @@
 .DonationProgramMainContainer {
   padding: 7rem 0;
+  background-color: #E9F5F3;
   font-family: "Comfortaa", cursive;
 }
 .DonationProgramMainContainer .DonationProgramContainer h6 {
@@ -37,11 +38,17 @@
 .DonationProgramMainContainer .DonationProgramContainer .DonationProgramCardContainer .DonationProgramCardBody .DonationProgramCardContent {
   padding: 1rem 0;
 }
+.DonationProgramMainContainer .DonationProgramContainer .DonationProgramCardContainer .DonationProgramCardBody .DonationProgramCardContent h6 {
+  color: #246359 !important;
+}
 .DonationProgramMainContainer .DonationProgramContainer .DonationProgramCardContainer .DonationProgramCardBody .DonationProgramCardContent h4 {
   font-weight: 700;
 }
 .DonationProgramMainContainer .DonationProgramContainer .DonationProgramCardContainer .DonationProgramCardBody .DonationProgramCardContent .DonationProgramCardProgressBar .progress {
   margin: 0 0 10px 0;
+}
+.DonationProgramMainContainer .DonationProgramContainer .DonationProgramCardContainer .DonationProgramCardBody .DonationProgramCardContent .DonationProgramCardProgressBar .progress .progress-bar {
+  background-color: #246359;
 }
 .DonationProgramMainContainer .DonationProgramContainer .DonationProgramCardContainer .DonationProgramCardBody .DonationProgramCardContent .DonateNowButton {
   display: flex;

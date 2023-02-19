@@ -15,7 +15,7 @@ const HowWeWork = () => {
         <div className="HowWeWorkCardContainer">
           <div className="HowWeWOrkCardBody">
             <div className="HowWeWorkCardicon">
-             <img src={pickup} alt="" />
+            <i class="fi fi-sr-bookmark"></i>
             </div>
             <div className="HwwCardHeading">
               <h3>Schedule a pickup</h3>
@@ -25,12 +25,12 @@ const HowWeWork = () => {
               soluta.
             </div>
             <div className="HwwCardButton">
-<button class="button-34" role="button">Donate Now</button>
+<button class="button-18" role="button">Donate Now</button>
             </div>
           </div>
           <div className="HowWeWOrkCardBody " id="donateatyour">
             <div className="HowWeWorkCardicon">
-              <img src={donate} alt="" />
+            <i class="fi fi-sr-bookmark"></i>
             </div>
             <div className="HwwCardHeading" >
               <h3 >Donate at Doorstep</h3>
@@ -40,12 +40,12 @@ const HowWeWork = () => {
               soluta.
             </div>
             <div className="HwwCardButton">
-<button class="button-34" role="button">Donate Now</button>
+<button class="button-18" role="button">Donate Now</button>
             </div>
           </div>
           <div className="HowWeWOrkCardBody">
             <div className="HowWeWorkCardicon">
-              <img src={reward} alt="" />
+            <i class="fi fi-sr-bookmark"></i>
             </div>
             <div className="HwwCardHeading">
               <h3>Get Certeified</h3>
@@ -55,7 +55,7 @@ const HowWeWork = () => {
               soluta.
             </div>
             <div className="HwwCardButton">
-<button class="button-34" role="button">Donate Now</button>
+<button class="button-18" role="button">Donate Now</button>
             </div>
           </div>
           

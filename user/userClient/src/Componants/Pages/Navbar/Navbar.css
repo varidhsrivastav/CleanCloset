@@ -1,5 +1,6 @@
 .navbar {
   position: fixed;
+  font-family: "Comfortaa", cursive;
   top: 0;
   right: 0;
   left: 0;
@@ -7,7 +8,7 @@
   will-change: transform;
   transition: transform 200ms linear;
   color: #000;
-  background-color: #F2D8CF;
+  background-color: #E9F5F3;
 }
 
 .navbar[class*=-unpinned] {
@@ -130,6 +131,10 @@
   position: relative;
 }
 
+.navbar .button-18 {
+  background-color: #FF7468;
+}
+
 @media (max-width: 580px) {
   .navbar-toggler .navbar-toggler-icon {
     background: #de6e56;
@@ -142,5 +147,5 @@
   }
 }
 .navbar-brand img {
-  width: 100px;
+  width: 150px;
 }/*# sourceMappingURL=Navbar.css.map */

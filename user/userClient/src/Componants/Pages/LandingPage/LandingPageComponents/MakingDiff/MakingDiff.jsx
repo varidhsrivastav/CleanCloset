@@ -1,7 +1,7 @@
 import React from "react";
 import "./Making.css";
 import donate from "./Image/donate.png"
-import india from './Image/indiapicMaking.png'
+import india from './Image/imdiamap.png'
 const MakingDiff = () => {
   return (
     <div className="MakingDiffMainContainer">
@@ -20,7 +20,7 @@ const MakingDiff = () => {
           <div className="MangingDiffInsideContent">
             <div className="MakingDiffInsideContentBody">
               <div className="MakingDiffICBodyIcon">
-              <img src={donate} alt="" />
+              <i class="fi fi-sr-bookmark"></i>
               </div>
               <div className="MakingDiffICBodyContent">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
@@ -29,7 +29,7 @@ const MakingDiff = () => {
             </div>
             <div className="MakingDiffInsideContentBody">
               <div className="MakingDiffICBodyIcon">
-               <img src={donate} alt="" />
+              <i class="fi fi-sr-bookmark"></i>
               </div>
               <div className="MakingDiffICBodyContent">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
@@ -44,7 +44,7 @@ const MakingDiff = () => {
           <div className="MakingDiffButton">
           <div className="MakingDiffButtonbtn">
 
-<button class="button-28" role="button">Button 28</button>
+<button class="button-18" role="button">Button 28</button>
           </div>
 
           </div>

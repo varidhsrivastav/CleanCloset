@@ -16,10 +16,12 @@
   justify-content: center;
 }
 .MakingDiffMainContainer .MakingDiffConatiner .MakingDiffContent h6 {
-  color: #e14b31;
+  color: #FF7468;
 }
 .MakingDiffMainContainer .MakingDiffConatiner .MakingDiffContent h1 {
   font-weight: 700;
+  text-shadow: 0px 1px, 1px 0px, 1px 1px;
+  color: #246359;
 }
 .MakingDiffMainContainer .MakingDiffConatiner .MakingDiffContent .MangingDiffInsideContent .MakingDiffInsideContentBody {
   display: flex;
@@ -27,6 +29,10 @@
 }
 .MakingDiffMainContainer .MakingDiffConatiner .MakingDiffContent .MangingDiffInsideContent .MakingDiffInsideContentBody .MakingDiffICBodyIcon {
   padding: 10px;
+}
+.MakingDiffMainContainer .MakingDiffConatiner .MakingDiffContent .MangingDiffInsideContent .MakingDiffInsideContentBody .MakingDiffICBodyIcon i {
+  font-size: 30px;
+  color: #FF7468;
 }
 .MakingDiffMainContainer .MakingDiffConatiner .MakingDiffContent .MangingDiffInsideContent .MakingDiffInsideContentBody .MakingDiffICBodyIcon img {
   width: 40px;

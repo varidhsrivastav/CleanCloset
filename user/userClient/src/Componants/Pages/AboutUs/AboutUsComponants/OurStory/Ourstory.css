@@ -1,5 +1,6 @@
 .OurStoryMainContainer {
   font-family: "Comfortaa", cursive;
+  margin: 7em 0;
 }
 .OurStoryMainContainer .OurStoryContainer {
   display: flex;
@@ -25,6 +26,9 @@
 }
 
 @media (max-width: 900px) {
+  .OurStoryMainContainer {
+    margin: 11em 0;
+  }
   .OurStoryMainContainer .OurStoryContainer {
     display: flex;
     flex-direction: column;

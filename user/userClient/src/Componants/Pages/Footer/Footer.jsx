@@ -2,6 +2,8 @@ import React from "react";
 import "./Footer.css";
 import call from "./FooterComponants/img/call.png";
 import email from "./FooterComponants/img/message.png";
+import footerImage from './image/myProfileFooter_4e9fe2.png';
+import logo from "./image/cleanclosethighLogo.png"
 const Footer = () => {
   return (
     <div className="FooterMainContainer">
@@ -21,8 +23,7 @@ const Footer = () => {
         <div className="FooterMainSectionComponants">
           <div className="FooterMainSectionNavigation">
             <div className="FooterMainSectionNavigationLogo">
-              <img src="" alt="" />
-              <h3>CleanCloset</h3>
+              <img src={logo} alt="" />
             </div>
             <div className="FooterMainSectionNavigationSections">
               <a href="">
@@ -37,8 +38,8 @@ const Footer = () => {
               </a>
             </div>
             <div className="FooterMainSectionNavigationBotton">
-              <button class="button-18" role="button">
-                Donate
+              <button class="DonateButton" role="button">
+                Add Ngo
               </button>
             </div>
           </div>
@@ -61,6 +62,9 @@ const Footer = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className="footerImageDown">
+        <img src={footerImage} alt="" />
       </div>
     </div>
   );

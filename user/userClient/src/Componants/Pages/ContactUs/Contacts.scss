@@ -22,7 +22,8 @@
 
                 .ContactUsLeftSideIcon {
                     img {
-                        border: 1px solid rgb(68, 66, 66);
+                       
+                        background-color: $orangeLigntBackground;
                         border-radius: 10px;
                         padding: 10px;
                         height: 50px;
@@ -57,7 +58,8 @@
                 margin-bottom: 20px;
 
                 img {
-                    border: 1px solid rgb(68, 66, 66);
+                    background-color: $orangeLigntBackground;
+                    
                     border-radius: 10px;
                     padding: 10px;
                     height: 50px;
@@ -73,7 +75,7 @@
             flex-direction: column;
             border-radius: 20px;
             padding: 5em;
-            background-color: #a7d5ed;
+            background-color: $greenDarkBackgroundColor;
 
             .ContactUsFormSideContainerHeading {
                 margin: 0 0 2em 0;
@@ -203,8 +205,6 @@
                         }
                     }
                 }
-
-                .ContactUsLeftSideContainerSocialIcon {}
             }
 
             .ContactUsFormSideContainer {

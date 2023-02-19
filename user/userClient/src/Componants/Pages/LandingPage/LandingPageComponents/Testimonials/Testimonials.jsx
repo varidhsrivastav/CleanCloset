@@ -10,8 +10,8 @@ const Testimonials = () => {
   return (
     <div className="TestimonialsMainContaierHeader">
       <div className="TestimonialsContainer container">
-        <h6>Testimonials</h6>
-        <h1>What they are blabbering about us </h1>
+        <h6 className="work">Testimonials</h6>
+        <h1 className="workh1">What they are blabbering about us </h1>
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum,
           voluptatibus!

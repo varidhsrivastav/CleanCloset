@@ -53,10 +53,17 @@ module.exports = {
     new ModuleFederationPlugin({
       name: "userClient",
       filename: "remoteEntry.js",
-      remotes: {},
+      remotes: {
+        userClient: "userClient@http://localhost:3001/remoteEntry.js",
+        donationClient : "donationClient@http://localhost:3002/remoteEntry.js",
+      },
       exposes: {
         "./Navbar": "./src/Componants/Pages/Navbar/Navbar.jsx",
-        "./Footer": "./src/Componants/Pages/Footer/Footer.jsx"
+        "./Footer": "./src/Componants/Pages/Footer/Footer.jsx",
+        "./AboutUs": "./src/Componants/Pages/AboutUs/AboutUs.jsx",
+        "./ContactUs": "./src/Componants/Pages/ContactUs/ContactUs.jsx",
+        "./LandingPage" : "./src/Componants/Pages/LandingPage/LandingPage.jsx",
+        "./LazyLoad": "./src/Componants/Pages/LazyLoad/LazyLoad.jsx",
         
       },
       shared: {

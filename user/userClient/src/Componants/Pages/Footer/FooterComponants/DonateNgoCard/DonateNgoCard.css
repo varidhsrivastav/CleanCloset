@@ -8,16 +8,34 @@
   display: flex;
   flex-direction: column;
   gap: 2em;
-  border: 1px solid black;
+  background-color: #5DADAB;
   border-radius: 10px;
-  padding: 3em 0;
-  justify-content: center;
-  align-items: center;
+  min-height: 40vh;
+  padding: 2em;
+  justify-content: flex-end;
 }
 .FooterNgoCardMainSection .FooterAddNgoSection .FooterAddNgoSectioncontainer .AddNgoContent {
-  text-align: center;
+  transition: transform 600ms;
 }
-.FooterNgoCardMainSection .FooterAddNgoSection .FooterAddNgoSectioncontainer .AddNgoButton {
+.FooterNgoCardMainSection .FooterAddNgoSection .FooterAddNgoSectioncontainer .AddNgoContent:hover {
+  cursor: pointer;
+  transform: translateY(-100px);
+}
+.FooterNgoCardMainSection .FooterAddNgoSection .FooterAddNgoSectioncontainer .AddNgoContent:hover .AddNgoButton {
+  margin: 2em 0 0 0;
   display: flex;
-  gap: 3em;
+}
+.FooterNgoCardMainSection .FooterAddNgoSection .FooterAddNgoSectioncontainer .AddNgoContent h1 {
+  font-weight: 900;
+  font-size: 58px;
+  color: #fff;
+}
+.FooterNgoCardMainSection .FooterAddNgoSection .FooterAddNgoSectioncontainer .AddNgoContent .AddNgoButton {
+  text-align: center;
+  display: none;
+}
+.FooterNgoCardMainSection .FooterAddNgoSection .FooterAddNgoSectioncontainer .AddNgoContent .AddNgoButton button {
+  margin: 0 2em 0 0;
+  background-color: #E9F5F3;
+  color: #246359;
 }/*# sourceMappingURL=DonateNgoCard.css.map */

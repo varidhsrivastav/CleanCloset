@@ -10,7 +10,7 @@ const Service = () => {
           <div className="SectionCards">
             <div className="ServiceCardBoday">
               <div className="serviceIcon">
-                <img src={donate} alt="" />
+              <i class="fi fi-sr-user"></i>
               </div>
               <h3>Lorem</h3>
               <p>
@@ -19,8 +19,18 @@ const Service = () => {
               </p>
             </div>
             <div className="ServiceCardBoday">
-            <div className="serviceIcon">
-                <img src={donate} alt="" />
+            <div className="serviceIcon" id="service1">
+            <i class="fi fi-sr-user" ></i>
+              </div>
+              <h3>Lorem</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Quaerat dolor cum,
+              </p>
+            </div>
+            <div className="ServiceCardBoday">
+            <div className="serviceIcon" id="service1">
+            <i class="fi fi-sr-user" ></i>
               </div>
               <h3>Lorem</h3>
               <p>
@@ -30,17 +40,7 @@ const Service = () => {
             </div>
             <div className="ServiceCardBoday">
             <div className="serviceIcon">
-                <img src={donate} alt="" />
-              </div>
-              <h3>Lorem</h3>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Quaerat dolor cum,
-              </p>
-            </div>
-            <div className="ServiceCardBoday">
-            <div className="serviceIcon">
-                <img src={donate} alt="" />
+            <i class="fi fi-sr-user"></i>
               </div>
               <h3>Lorem</h3>
               <p>
@@ -57,7 +57,7 @@ const Service = () => {
               ipsum?
             </p>
             <div className="ServiceButton">
-              <button class="button-24" role="button">
+              <button class="button-18" role="button">
                 Donate Now
               </button>
             </div>

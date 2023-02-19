@@ -5,7 +5,10 @@
 //     background-color: #FBAB7E;
 // background-image: linear-gradient(307deg, #FBAB7E 0%, #de6e56 100%);
 
-    background-color: #e1a69271;
+    // background-color: #e1a69271;
+    // background-color: #FBD679;
+    // background-color: #FCD24C;
+    // background-color: #FEEA94;
     
     .IntroComponents {
         height: 100vh;
@@ -29,12 +32,14 @@
                 font-family: $FredokaFont;
                 width: 100%;
                 font-size: 3vw;
+                color: #246359;
             }
 
             p {
                 font-size: 1vw;
                 margin: 1em 0;
                 width: 70%;
+                color: #90BA93;
             }
 
             .IntroButtons {
@@ -153,11 +158,17 @@
         }
         .IntroImageSide {
             // width: 100%;
-            margin: 7em 0 0 0;
+            // margin: 7em 0 0 0;
+            margin: 0 ;
             display: flex;
+            
             .IntroMapImage {
+                position: absolute;
+                top: 5%;
+                left: 10%;
                 width: 100% !important;
                 margin-right: 3em;
+                z-index: -1;
                 img{
                     width: 100%;
                 }

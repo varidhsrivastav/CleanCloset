@@ -1,7 +1,7 @@
 import React from "react";
 import "./Navbar.css";
-import logo from "./Image/CleanCloset.png"
-import { Link } from "react-router-dom";
+import logo from "./Image/cleanclosethighLogo.png"
+import { Link, NavLink } from "react-router-dom";
 
 export const Navbar = () => {
   var openNav = () => {
@@ -22,9 +22,9 @@ export const Navbar = () => {
     <>
       <nav className="navbar navbar-expand-sm navbar-light" onScroll={openNav}>
         <div className="container1" data-aos="fade-down">
-          <a className="navbar-brand"  to="/">
+          <NavLink to="/" className="navbar-brand">
             <img src={logo} alt="" />
-          </a>
+          </NavLink>
 
           <button
             className="navbar-toggler"
@@ -43,34 +43,31 @@ export const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a to="/" className="nav-link">
+              
+                <NavLink to="/" className="nav-link">
                   <span data-hover="Home">Home</span>
-                </a>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <a to="/about" className="nav-link">
+                <NavLink to="/AboutUs" className="nav-link">
                   <span data-hover="About">About</span>
-                </a>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <a to="/project" className="nav-link">
-                  <span data-hover="Projects">Projects</span>
-                </a>
+                <NavLink to="/ContactUs" className="nav-link">
+                  <span data-hover="Contact">Contact</span>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <a to="/resume" className="nav-link">
-                  <span data-hover="Resume">Resume</span>
-                </a>
               </li>
             </ul>
             <ul className="navbar-nav" id="DonateButtonNav">
-              <a to="/contact" className="nav-link">
+              <NavLink to="/DonorLandingPage" className="nav-link">
                 
-                <button class="button-86" role="button">
-                Register NGO
+                <button class="button-18" role="button">
+                Donate Now
               </button>
-            
-              </a>
+              </NavLink>
             </ul>
           </div>
         </div>

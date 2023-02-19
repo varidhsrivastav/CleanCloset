@@ -12,12 +12,14 @@ import musk from "./Image/MuskLogo.png";
 import nkf from "./Image/nkf.png";
 import smf from "./Image/smf.webp";
 import udaan from "./Image/udaan-new-logo-big.png";
-
+import stackedwave from "./Image/stacked-waves-haikei.png";
 const Partners = () => {
   return (
     <div className="ParterMainContainer">
-      {/* <h1>Trusted By</h1> */}
+
+          {/* <h1>Trusted By</h1> */}
       <div className="PartnerContainer container">
+      {/* <h6>Trusted by the best NGOs</h6> */}
         <div className="CompaniesLogo">
           <Swiper
             spaceBetween={50}

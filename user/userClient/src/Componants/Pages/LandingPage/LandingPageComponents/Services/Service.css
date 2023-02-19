@@ -29,6 +29,12 @@
 .SectionMainContainer .SectionContainer .ServiceContent .SectionCards .ServiceCardBoday:hover {
   box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
+.SectionMainContainer .SectionContainer .ServiceContent .SectionCards .ServiceCardBoday #service1 {
+  background-color: #FFF0EF !important;
+}
+.SectionMainContainer .SectionContainer .ServiceContent .SectionCards .ServiceCardBoday #service1 i {
+  color: #FF7468;
+}
 .SectionMainContainer .SectionContainer .ServiceContent .SectionCards .ServiceCardBoday .serviceIcon {
   border-radius: 50%;
   display: flex;
@@ -37,8 +43,12 @@
   width: 70px;
   height: 70px;
   text-align: center;
-  background-color: #22a7f0;
+  background-color: #E9F5F3;
   margin: 0 0 1em 0;
+}
+.SectionMainContainer .SectionContainer .ServiceContent .SectionCards .ServiceCardBoday .serviceIcon i {
+  color: #246359;
+  font-size: 30px;
 }
 .SectionMainContainer .SectionContainer .ServiceContent .SectionCards .ServiceCardBoday .serviceIcon img {
   width: 50px;
@@ -57,13 +67,18 @@
   grid-column: 4/7;
 }
 .SectionMainContainer .SectionContainer .ServiceContent .ServiceSectionImage h6 {
-  color: #c23728;
+  color: #FF7468;
   font-weight: 700;
   margin: 0.5em 0;
 }
 .SectionMainContainer .SectionContainer .ServiceContent .ServiceSectionImage h1 {
   font-weight: 900;
   margin: 0.5em 0;
+  color: #246359;
+  text-shadow: 0px 1px, 1px 0px, 1px 1px;
+}
+.SectionMainContainer .button-18 {
+  background-color: #FF7468;
 }
 
 @media (max-width: 580px) {

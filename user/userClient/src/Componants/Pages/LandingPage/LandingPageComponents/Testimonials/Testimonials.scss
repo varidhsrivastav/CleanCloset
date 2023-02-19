@@ -1,12 +1,21 @@
 @import "../../../../GlobalCss/GlobalCss.scss";
 .TestimonialsMainContaierHeader{
     margin: 10em 0;
+    font-family: $ComfertaFont;
     .TestimonialsContainer{
-        h6{
-            text-align: center;
+        .work{
+            width: 100%;
+                text-align: center;
+                color: $OrangePrimaryColor !important; 
+            
+        }
+        .workh1{
+            color: $GreenPrimaryColor;
+            text-shadow: $shadow1px;
         }
         h1{
             text-align: center;
+            font-size: 48px;
         }
         p{
             text-align: center;
@@ -23,7 +32,6 @@
                 padding: 20px;
                 min-height: 250px;
                 max-width: 650px;
-                color: #fff;
                 border-radius: 10px;
                 .TestimonialsContainerCardBodyImage{
                     max-height: 250px;
@@ -69,10 +77,11 @@
 }
 
 #cardbody1{
-    background-color: $subheadingcolor;
+    background-color: $greenLigntBackgroundColr;
 }
 #cardbody2{
-    background-color: $mutedColor;
+    background-color: $orangeLigntBackground;
+    color: #000000;
 }
 
 @media (max-width:900px){

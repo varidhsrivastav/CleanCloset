@@ -9,7 +9,6 @@ const DonateNgoCrad = () => {
           <div className="AddNgoContent">
             <h1> Join Our action</h1>
             <h1>Everyone can help</h1>
-          </div>
           <div className="AddNgoButton">
             <button class="button-18" role="button">
               Add ngo
@@ -17,6 +16,7 @@ const DonateNgoCrad = () => {
             <button class="button-18" role="button">
               Donate Now
             </button>
+          </div>
           </div>
         </div>
       </div>

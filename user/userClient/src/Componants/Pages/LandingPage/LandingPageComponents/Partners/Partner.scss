@@ -1,10 +1,24 @@
 @import "../../../../GlobalCss//GlobalCss.scss";
 .ParterMainContainer {
-    margin: 5em 0  ;
-    h1{
+    padding: 5em 0 5em 0  ;
+    position: relative;
+    // background-color: #F7F4EC;
+    .ParterMainContainerImg{
+        position: absolute;
+        display: none;
+        // z-index: -1;#246359
+        width: 100%;
+        img{
+            width: 100%;
+            height: 200px;
+            // margin-top: -50px;
+        }
+    }
+
+    h6{
         font-family: $ComfertaFont;
         text-align: center;
-        margin: 3vw 0 ;
+        // display: n;
     }
     .PartnerContainer {
         .CompaniesLogo {
