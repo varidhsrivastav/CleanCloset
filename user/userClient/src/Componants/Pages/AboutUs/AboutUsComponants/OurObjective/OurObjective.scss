@@ -1,0 +1,75 @@
+// @import "../../../../GlobalCss//GlobalCss.scss";
+@import "../../../../GlobalCss/GlobalCss.scss";
+.OurObjectiveMainContainer {
+
+    .OurObjectivecontainer {
+        padding: $MainContainerMargin;
+        font-family: $ComfertaFont;
+        text-align: center;
+        h6{
+            color: $primaryColor;
+        }
+        .OurObjectiveCardContainer {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            // gap: 6rem;
+            margin-top: 4em;
+            
+            .OurObjectiveCardBody {
+                // background-color: $mutedColor;
+                // background-color: #fff;
+                min-width: 390px !important;
+                max-width: 400px;
+                border-radius: 10px;
+                box-shadow: $box-shadow1;
+                display: grid;
+                place-content: center;
+                place-items: center;
+                min-height: 250px;
+                max-height: 250px;
+                margin: 50px 10px ;
+
+                #donateatyour {
+                    margin: 40px 0 0 0;
+                }
+
+                .OurObjectiveCardicon {
+                    border-radius: 50%;
+                    height: 100px;
+                    width: 100px;
+                    margin-top: -50px;
+                    background-color: #FC4E57;
+                    display: grid;
+                    place-content: center;
+                    box-shadow: $box-shadow1;
+
+                    img {
+                        width: 40px;
+                        height: 40px;
+                    }
+
+
+                }
+
+                .OurObjectiveCardHeading {
+                    color: $secondaryColor;
+                    margin: 20px 0;
+                }
+
+                .OurObjectiveCardPara {
+                    width: 70%;
+                }
+
+                .OurObjectiveCardButton {
+                    margin: 20px 0 -20px 0;
+
+                    button {
+                        background-color: #FC4E57 !important;
+                    }
+                }
+            }
+        }
+    }
+}

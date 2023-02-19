@@ -1,0 +1,155 @@
+@import "../../GlobalCss/GlobalCss.scss";
+.navbar {
+    position: fixed;
+    font-family: $ComfertaFont;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 19;
+    will-change: transform;
+    transition: transform 200ms linear;
+    color: #000 ;
+    // background-color: #F2D8CF;
+    //  background-color: #FEEA94;
+    // background-color: #fff ;
+        // background-color: #FBAB7E;
+        // background-color: #d4f0eb;
+        background-color: #E9F5F3;
+        // opacity: 0.9;
+        
+// background-image: linear-gradient(307deg, #FBAB7E 0%, #de6e56 100%);
+  }
+  .navbar[class*="-unpinned"] {
+    transform: translate(0, -150%);
+  }
+  .navbar[class*="-pinned"] {
+    transform: translate(0, 0);
+  }
+  .navbar[class*="headroom--not-top"] {
+    background: #000;
+    border-bottom: 1px solid #f0f0f0;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .container1{
+    margin: 0 0 0 100px;
+    width: 90% !important;
+    display: flex;
+  }
+  #navbarNav{
+    width: 100%;
+    margin: 0 0 0 100px;
+  }
+  #DonateButtonNav{
+    justify-content: end;
+    width: 100%;
+    margin: 0 20px 0 0;
+  }
+  .navbar-brand {
+    font-weight: bold;
+    color: #ffc200 !important;
+    font-size: 28px;
+  }
+  .navbar-expand-sm .navbar-nav .nav-link {
+    padding: 0 20px;
+  }
+  
+  .nav-link {
+    font-weight: bold;
+    font-size: 16px;
+    overflow: hidden;
+  }
+  .nav-link span {
+    position: relative;
+    display: inline-block;
+    transition: transform 0.3s;
+    color: #000;
+   
+  }
+
+  .nav-link span:before {
+    position: absolute;
+    top: 100%;
+    content: attr(data-hover);
+    transform: translate3d(0, 0, 0);
+  }
+  
+  .navbar-light .navbar-nav .nav-link:focus,
+  .navbar-light .navbar-nav .nav-link:hover {
+    color: #de6e56;
+    font-weight: bold;
+
+  }
+  .navbar-light .navbar-nav .nav-link:focus span,
+  .navbar-light .navbar-nav .nav-link:hover span {
+    transform: translateY(-100%);
+    color: #de6e56;
+  }
+  
+  .navbar-light .navbar-toggler-icon {
+    background: none;
+  }
+  
+  .navbar-toggler {
+    border: 0;
+    padding: 0;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    outline: none;
+    cursor: pointer;
+    margin-right: 10px;
+    color: #de6e56;
+  }
+  .navbar-toggler:focus {
+    outline: none;
+    color: #a7d5ed;
+  }
+  .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:first-child {
+    transform: rotate(45deg);
+    top: 6px;
+  }
+  .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:nth-child(2) {
+    display: none;
+  }
+  .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:last-child {
+    transform: rotate(-45deg);
+    bottom: 1px;
+    color: #de6e56;
+  }
+  .navbar-toggler .navbar-toggler-icon {
+    background: #000;
+    display: block;
+    width: 100%;
+    height: 2px;
+    margin: 5px 0;
+    transition: all 0.4s ease;
+    position: relative;
+  }
+  .navbar{
+    .button-18{
+      background-color: #FF7468;
+    }
+  }
+
+
+  @media (max-width: 580px) {
+    .navbar-toggler .navbar-toggler-icon {
+      background: #de6e56;
+    }
+    .nav-link span {
+      color: #000;
+    }
+    #navbarNav{
+
+      background-color: #e2e2e2;
+    }
+
+
+  }
+  .navbar-brand{
+
+    img{
+      width: 150px;
+    }
+  }

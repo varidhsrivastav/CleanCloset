@@ -1,0 +1,48 @@
+@import "../../../../GlobalCss/GlobalCss.scss";
+
+.OurStoryMainContainer {
+    font-family: $ComfertaFont;
+    margin:7em 0;
+    .OurStoryContainer {
+        display: flex;
+        flex-direction: row;
+        
+        .OurStoryContainerContent {
+            width: 50%;
+
+            h1 {
+                font-weight: 900;
+                font-size: 48px;
+            }
+
+            p {
+                width: 100%;
+            }
+        }
+
+        .OurStroyContainerImage {
+            width: 50%;
+            text-align: center;
+                img {
+                    width: 400px !important;
+                    border-radius: 20px;
+                }
+            }
+        
+    }
+}
+
+@media (max-width:900px) {
+    .OurStoryMainContainer {
+        margin:11em 0;
+        .OurStoryContainer {
+            display: flex;
+            flex-direction: column;
+        //     justify-content: space-around;
+        // align-items:center;
+            .OurStoryContainerContent {
+                width: 100%;
+            }
+        }
+    }
+}

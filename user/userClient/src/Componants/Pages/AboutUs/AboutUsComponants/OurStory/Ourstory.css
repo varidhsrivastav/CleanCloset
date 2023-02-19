@@ -1,0 +1,39 @@
+.OurStoryMainContainer {
+  font-family: "Comfortaa", cursive;
+  margin: 7em 0;
+}
+.OurStoryMainContainer .OurStoryContainer {
+  display: flex;
+  flex-direction: row;
+}
+.OurStoryMainContainer .OurStoryContainer .OurStoryContainerContent {
+  width: 50%;
+}
+.OurStoryMainContainer .OurStoryContainer .OurStoryContainerContent h1 {
+  font-weight: 900;
+  font-size: 48px;
+}
+.OurStoryMainContainer .OurStoryContainer .OurStoryContainerContent p {
+  width: 100%;
+}
+.OurStoryMainContainer .OurStoryContainer .OurStroyContainerImage {
+  width: 50%;
+  text-align: center;
+}
+.OurStoryMainContainer .OurStoryContainer .OurStroyContainerImage img {
+  width: 400px !important;
+  border-radius: 20px;
+}
+
+@media (max-width: 900px) {
+  .OurStoryMainContainer {
+    margin: 11em 0;
+  }
+  .OurStoryMainContainer .OurStoryContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .OurStoryMainContainer .OurStoryContainer .OurStoryContainerContent {
+    width: 100%;
+  }
+}/*# sourceMappingURL=Ourstory.css.map */

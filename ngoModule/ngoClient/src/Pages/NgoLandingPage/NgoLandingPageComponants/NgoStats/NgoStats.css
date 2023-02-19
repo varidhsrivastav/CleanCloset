@@ -1,0 +1,32 @@
+.NgoStatsMainComponants {
+  margin: 3em 0;
+}
+.NgoStatsMainComponants .NgoStasComponants .NgoStatsComponatsContents {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3em;
+  place-content: center;
+}
+.NgoStatsMainComponants .NgoStasComponants .NgoStatsComponatsContents .NgoStatsCardBody {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 2em 4em 2em 2em;
+}
+.NgoStatsMainComponants .NgoStasComponants .NgoStatsComponatsContents .NgoStatsCardBody .NgoStatscardIcon {
+  width: 40px;
+  margin: 0 1em 0 0.5em;
+}
+.NgoStatsMainComponants .NgoStasComponants .NgoStatsComponatsContents .NgoStatsCardBody .NgoStatscardIcon .lotieIcon {
+  width: 10%;
+}
+.NgoStatsMainComponants .NgoStasComponants .NgoStatsComponatsContents .NgoStatsCardBody .NgoStatscardHead h6 {
+  line-height: 1em;
+}
+.NgoStatsMainComponants .NgoStasComponants .NgoStatsComponatsContents .NgoStatsCardBody .NgoStatscardHead h2 {
+  line-height: 0.7rem;
+}
+.NgoStatsMainComponants .NgoStasComponants .NgoStatsComponatsContents .NgoStatsCardBody .NgoStatscardStats h2 {
+  line-height: 0.1rem;
+}/*# sourceMappingURL=NgoStats.css.map */

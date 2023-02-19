@@ -1,0 +1,113 @@
+@import "../../../../GlobalCss/GlobalCss.scss";
+.MainLandingPageMainContainer {
+    margin: 68px 0 0 0;
+    overflow: hidden;
+    max-height: 100vh;
+    min-height: 93vh;
+    font-family: $ComfertaFont;
+    // background-color: #F7F4EC;
+    background-color: #E9F5F3;
+    .MainLandingPageContainer {
+        min-height: 70vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .MainLandingPageContainerIntro {
+            display: flex;
+            flex-direction: row;
+            gap: 2em;
+            justify-content: center;
+            align-items: center;
+            
+            h1 {
+                font-weight: 700;
+                font-size: 100px;
+                color: #246359;
+                text-shadow: 0px 4px, 4px 0px, 4px 4px;
+            }
+            h5{
+                
+            }
+        }
+        .MainLandingPageContainerPara {
+            display: flex;
+            justify-content: center;
+
+            h5{
+                text-align: center;
+                margin: 1em 0 0  0;
+                width: 70%;
+            }
+        }
+
+
+        .MainLandingPageContainerButtonsConatiner {
+            display: flex;
+            flex-direction: row;
+            gap: 2rem;
+            margin: 2em 0 0 0 ;
+            
+            .DonateButton{
+                z-index: 1;
+                font-weight: 700;
+                // background-color: #B84624 !important;
+                background-color: #FF7468;
+                padding: 15px 40px;
+            }
+            .button-28{
+                padding: 0px 40px;
+            }
+            .MainLandingPageContainerButtons1 {}
+
+            .MainLandingPageContainerButtons2 {}
+        }
+    }
+    .MainLandingPageMainContainerImg{
+        position: absolute;
+        // z-index: -1;
+        overflow: hidden;
+        bottom: 0%;
+        width: 100%;
+        left: 0%;
+        right: 10%;
+        img{
+            width: 100%;
+        }
+    }
+}
+
+
+@media (max-width:900px) {
+    .MainLandingPageMainContainer {
+        margin: 68px 0 0 0;
+        min-height: 80vh;
+        .MainLandingPageContainer {
+            .MainLandingPageContainerIntro {
+                display: flex;
+                flex-direction: column;
+                gap: 2em;
+                justify-content: center;
+                align-items: center;
+                h1 {
+                    font-weight: 900;
+                    line-height: 2.2rem;
+                    font-size: 80px;
+                    color: #246359;
+                    text-shadow: 0px 1px, 1px 0px, 1px 1px;
+                }
+            }
+
+            .MainLandingPageContainerPara {
+                margin: 2em 0 0 0;
+                text-align: center;
+            }
+
+            .MainLandingPageContainerButtonsConatiner {
+                .MainLandingPageContainerButtons1 {}
+
+                .MainLandingPageContainerButtons2 {}
+            }
+        }
+    }
+}
